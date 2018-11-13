@@ -30,7 +30,7 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    
+
     [self query];
 }
 
@@ -39,6 +39,15 @@
     
     [self setUpNav];
     [self setHeaderView];
+    [self prefersNavigationBarHidden];
+}
+
+
+
+
+- (BOOL)prefersNavigationBarHidden
+{
+    return NO;
 }
 
 - (void)setHeaderView{

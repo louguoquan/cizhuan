@@ -11,6 +11,8 @@
 @interface CTWordOfMouthHeadView ()<SDCycleScrollViewDelegate>
 
 @property (nonatomic,strong)SDCycleScrollView *cycleScrollView;
+@property (nonatomic,strong)UIButton *selBtn;
+
 
 
 @end
@@ -69,6 +71,7 @@
         make.height.mas_offset(80);
         make.width.mas_offset((kScreenWidth-45)/2.0);
     }];
+    btn1.layer.cornerRadius = 5;
     btn1.tag = 201;
     [btn1 addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
     
@@ -81,13 +84,95 @@
         make.height.mas_offset(15);
     }];
     
+    UILabel *label = [[UILabel alloc]init];
+    label.text = @"全部信息";
+    label.font = [UIFont systemFontOfSize:20];
+    label.textColor = HEX_COLOR(@"#333333");
+    [self addSubview:label];
+    [label mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(line.mas_bottom).offset(15);
+        make.left.equalTo(self).offset(15);
+        make.height.mas_offset(20);
+    }];
     
     
+    UIView *line1 = [[UIView alloc]init];
+    line1.backgroundColor = HEX_COLOR(@"#F9F4F8");
+    [self addSubview:line1];
+    [line1 mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.right.equalTo(self);
+        make.top.equalTo(label.mas_bottom).offset(15);
+        make.height.mas_offset(0.5);
+    }];
+    
+    
+    UIButton *btn2 = [[UIButton alloc]init];
+    [btn2 setTitle:@"最热" forState:0];
+    btn2.titleLabel.font = [UIFont systemFontOfSize:13];
+    [btn2 setBackgroundColor:HEX_COLOR(@"#417CF8")];
+    [btn2 setTitleColor:HEX_COLOR(@"#999999") forState:0];
+    [btn2 setBackgroundColor:HEX_COLOR(@"#ffffff")];
+    btn2.layer.borderWidth = 0.5f;
+    btn2.layer.borderColor = HEX_COLOR(@"#999999").CGColor;
+    [self addSubview:btn2];
+    [btn2 mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerY.equalTo(label);
+        make.right.equalTo(self).offset(-15);
+        make.height.mas_offset(40);
+        make.width.mas_offset(60);
+    }];
+    btn2.tag = 202;
+    [btn2 addTarget:self action:@selector(btnClick1:) forControlEvents:UIControlEventTouchUpInside];
+    
+    
+    
+    
+    UIButton *btn3 = [[UIButton alloc]init];
+    btn3.titleLabel.font = [UIFont systemFontOfSize:13];
+    [btn3 setTitle:@"最新" forState:0];
+    [btn3 setBackgroundColor:HEX_COLOR(@"#417CF8")];
+    [btn3 setTitleColor:HEX_COLOR(@"#417CF8") forState:0];
+    [btn3 setBackgroundColor:HEX_COLOR(@"#EAF2FE")];
+    btn3.layer.borderWidth = 0.5f;
+    btn3.layer.borderColor = HEX_COLOR(@"#417CF8").CGColor;
+    [self addSubview:btn3];
+    [btn3 mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerY.equalTo(label);
+        make.right.equalTo(btn2.mas_left).offset(-10);
+        make.height.mas_offset(40);
+        make.width.mas_offset(60);
+    }];
+
+    btn3.tag = 203;
+    [btn3 addTarget:self action:@selector(btnClick1:) forControlEvents:UIControlEventTouchUpInside];
+    
+    
+    self.selBtn = btn3;
 }
 
 
 - (void)btnClick:(UIButton *)btn{
     
+    
+}
+
+- (void)btnClick1:(UIButton *)btn{
+    
+    if (self.selBtn != btn) {
+        
+        [self.selBtn setBackgroundColor:HEX_COLOR(@"#417CF8")];
+        [self.selBtn setTitleColor:HEX_COLOR(@"#999999") forState:0];
+        [self.selBtn setBackgroundColor:HEX_COLOR(@"#ffffff")];
+        self.selBtn.layer.borderWidth = 0.5f;
+        self.selBtn.layer.borderColor = HEX_COLOR(@"#999999").CGColor;
+        
+        [btn setBackgroundColor:HEX_COLOR(@"#417CF8")];
+        [btn setTitleColor:HEX_COLOR(@"#417CF8") forState:0];
+        [btn setBackgroundColor:HEX_COLOR(@"#EAF2FE")];
+        btn.layer.borderWidth = 0.5f;
+        btn.layer.borderColor = HEX_COLOR(@"#417CF8").CGColor;
+        self.selBtn = btn;
+    }
     
 }
 

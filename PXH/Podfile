@@ -58,7 +58,7 @@ target 'PXH' do
     
     pod 'RBBAnimation'
     
-    
+    pod 'ZYSideSlipFilter', '~> 0.5.0'
     #    pod 'BaiduMapKit' #百度地图SDK
     
     #    pod 'AMap2DMap'

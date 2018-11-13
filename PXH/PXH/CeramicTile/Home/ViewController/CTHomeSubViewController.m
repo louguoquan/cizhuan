@@ -10,6 +10,9 @@
 #import "CTHomeListViewController.h"
 #import "CTHomeHeadView.h"
 
+
+#import "CTProductSelectViewController.h"
+#import "CTPuTieViewController.h"
 @interface CTHomeSubViewController ()
     
     @end
@@ -58,6 +61,24 @@
     [super viewDidLoad];
     
     CTHomeHeadView *head = [[CTHomeHeadView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, 300)];
+    head.CTHomeHeadViewSetionSelect = ^(NSInteger index) {
+        if (index == 0) {
+            CTProductSelectViewController *vc = [[CTProductSelectViewController alloc]init];
+            vc.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:vc animated:YES];
+        }else if (index ==1){
+            
+            CTPuTieViewController *vc = [[CTPuTieViewController alloc]init];
+            vc.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:vc animated:YES];
+            
+        }else if (index == 2){
+            
+        }else if (index == 3){
+            
+        }
+        
+    };
     [self.view addSubview:head];
     
     
