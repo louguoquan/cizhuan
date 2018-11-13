@@ -1,0 +1,104 @@
+target 'PXH' do
+    platform :ios, '8.0'
+    
+    pod 'AFNetworking', '~> 3.0'
+    
+    pod 'SDWebImage', '~> 4.0.0'
+    
+    pod 'MJRefresh', '~> 3.1.12'
+    
+    pod 'MJExtension', '~> 3.0.13'
+    
+    pod 'DZNEmptyDataSet', '~> 1.8.1'
+    
+    pod 'JMRoundedCorner', '~> 1.2.1'
+    
+    pod 'Masonry', '~> 1.0.2'
+    
+    pod 'NJKWebViewProgress', '~> 0.2.3'
+    
+    pod 'MMPopupView', '~> 1.7.2'
+    
+    pod 'SVProgressHUD', '~> 2.0.3'
+    
+    pod 'SWTableViewCell', '~> 0.3.7'
+    
+    pod 'GTSDK', '~> 1.6.2.0-noidfa'
+    
+    #    pod 'JSONKit',       '~> 1.4'
+    
+    pod 'Reachability',  '~> 3.0.0'
+    
+    pod 'WMPageController'
+    
+    pod 'Bugly'
+    
+    pod 'ASIHTTPRequest'
+    
+    pod 'RegexKitLite'
+    
+    pod 'ReactiveObjC', '~> 2.1.2'
+    
+    pod 'IQKeyboardManager'
+    
+    pod 'YangMingShan', '~> 1.3.0'
+    
+    pod 'HCSStarRatingView', '~> 1.4.5'
+    
+    pod 'UITableView+FDTemplateLayoutCell', '~> 1.4'
+    
+    pod 'MBProgressHUD', '~> 1.0.0'
+    
+    pod 'KSPhotoBrowser'
+
+    pod 'YYText', '~> 1.0.7'
+    pod 'YYCache'
+    pod 'YYImage'
+    pod 'YYWebImage'
+    
+    pod 'RBBAnimation'
+    
+    
+    #    pod 'BaiduMapKit' #百度地图SDK
+    
+    #    pod 'AMap2DMap'
+    #    pod 'AMapSearch'
+    #    pod 'AMapLocation'
+    
+    
+    
+#    pod 'Meiqia', '~> 3.4.5'
+
+    pod 'DKNightVersion' #夜间模式
+    
+    
+    #友盟
+    
+    pod 'UMCCommon'
+    pod 'UMCSecurityPlugins'
+    pod 'UMCCommonLog'#日志库,可在发布 App 前移除
+    
+    pod 'UMCAnalytics'#统计
+    
+    #pod 'UMCPush'#推送
+    
+    # U-Share SDK UI模块（分享面板，建议添加）
+    pod 'UMCShare/UI'
+    # 集成微信(精简版0.2M)
+    pod 'UMCShare/Social/ReducedWeChat'
+    # 集成QQ/QZone/TIM(精简版0.5M)
+    pod 'UMCShare/Social/ReducedQQ'
+    # 集成新浪微博(精简版1M)
+    pod 'UMCShare/Social/ReducedSina'
+    
+    
+    post_install do |installer|
+        copy_pods_resources_path = "Pods/Target Support Files/Pods-PXH/Pods-PXH-resources.sh"
+        string_to_replace = '--compile "${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"'
+        assets_compile_with_app_icon_arguments = '--compile "${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}" --app-icon "${ASSETCATALOG_COMPILER_APPICON_NAME}" --output-partial-info-plist "${BUILD_DIR}/assetcatalog_generated_info.plist"'
+        text = File.read(copy_pods_resources_path)
+        new_contents = text.gsub(string_to_replace, assets_compile_with_app_icon_arguments)
+        File.open(copy_pods_resources_path, "w") {|file| file.puts new_contents }
+    end
+    
+end

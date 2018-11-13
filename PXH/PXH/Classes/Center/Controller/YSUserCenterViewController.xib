@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YSUserCenterViewController">
+            <connections>
+                <outlet property="buy" destination="bcn-BW-xnm" id="nLb-xe-9NA"/>
+                <outlet property="recharge" destination="q3R-Qh-kYD" id="lRv-22-Am2"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcn-BW-xnm">
+                    <rect key="frame" x="20" y="603" width="335" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="m5R-cz-SQX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="购物">
+                        <color key="titleColor" red="1" green="0.1764705882352941" blue="0.27450980392156865" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="shopping:" destination="-1" eventType="touchUpInside" id="22S-nP-Nfy"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q3R-Qh-kYD">
+                    <rect key="frame" x="20" y="539" width="335" height="44"/>
+                    <color key="backgroundColor" red="1" green="0.1764705882352941" blue="0.27450980392156865" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="FFP-Bw-vYZ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="充值">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="recharge:" destination="-1" eventType="touchUpInside" id="sW4-iN-hT1"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="bcn-BW-xnm" secondAttribute="bottom" constant="20" id="ZDt-aZ-j5s"/>
+                <constraint firstAttribute="trailing" secondItem="q3R-Qh-kYD" secondAttribute="trailing" constant="20" id="aYJ-FG-dag"/>
+                <constraint firstItem="q3R-Qh-kYD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="dwx-lu-jNd"/>
+                <constraint firstItem="bcn-BW-xnm" firstAttribute="top" secondItem="q3R-Qh-kYD" secondAttribute="bottom" constant="20" id="jj8-v6-MGe"/>
+                <constraint firstItem="bcn-BW-xnm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="nid-NN-OGr"/>
+                <constraint firstAttribute="trailing" secondItem="bcn-BW-xnm" secondAttribute="trailing" constant="20" id="pj9-OY-vrb"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

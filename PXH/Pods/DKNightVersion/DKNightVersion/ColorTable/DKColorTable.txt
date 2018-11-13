@@ -1,0 +1,98 @@
+NORMAL   NIGHT    RED
+#0A2B53  #343434  #fafafa BG
+#aaaaaa  #313131  #aaaaaa SEP
+#0000ff  #ffffff  #fa0000 TINT
+#000000  #ffffff  #000000 TEXT
+#ffffff  #444444  #ffffff BAR
+#f0f0f0  #222222  #dedede HIGHLIGHTED
+
+#E7E7E7  #222222  #dedede LINE
+
+
+#D9DADB  #222222  #dedede LINE2
+
+#151729  #343434  #fafafa NAVBG
+#ffffff  #ffffff  #fafafa NAVTEXT
+#0A2B53  #343434  #fafafa BARBG
+#ffffff  #343434  #fafafa BARTEXT
+#F5F4F9  #000000  #fafafa TABLEBG
+
+#0A2B53  #343434  #fafafa BUTTONDefault
+#E01434  #343434  #fafafa BUTTONRED
+#2BAF78  #343434  #fafafa BUTTONGLEEN
+#000000  #343434  #fafafa BUTTONTITLE
+#ffffff  #343434  #fafafa BUTTONBG
+
+#052855  #343434  #fafafa BUTTONTEXT
+#2DA5D8  #343434  #fafafa VALIDATEBUTTONBG
+#dc1433  #343434  #fafafa LOGINBUTTONBG
+
+#2DA6D7  #ffffff  #fafafa MARKETBottomAdvertiseBG
+#ffffff  #666666  #fafafa MARKETBottomAdvertiseTEXT
+
+#EEEEEE  #ffffff  #fafafa TRADINGHalfBTNBG
+#555555  #666666  #fafafa TRADINGHalfBTNTEXT
+
+#D6D6D6  #666666  #fafafa TRADINGDetailHead
+
+#218DBC  #666666  #fafafa TRADINGStatusBG
+
+
+#FFFFFF  #666666  #fafafa KLINEHEADBG
+#EA3151  #666666  #fafafa KLINEHEADTEXTRED
+#2BAF78  #666666  #fafafa KLINEHEADTEXTGREEN
+#d1d1d1  #666666  #fafafa KBORDERLINE
+
+
+#888888  #ffffff  #fafafa EditOptionalHEADERTEXT
+
+#000000  #ffffff  #fafafa AssetsTEXT
+#F5F4F9  #ffffff  #fafafa AssetsLine
+
+
+#2DA6D7  #ffffff  #fafafa AssetsBtnTopUPBG
+#E1DFE1  #ffffff  #fafafa AssetsBtnGrey
+#0A2A53  #ffffff  #fafafa AssetsWithdrawalBG
+#ffffff  #666666  #fafafa AssetsBtnTEXT
+#E60026  #666666  #fafafa AssetsNoteTEXT
+#888888  #666666  #fafafa AssetsTimeTEXT
+
+#000000  #666666  #fafafa AssetsMessageTEXT
+
+
+
+#2DA5D8  #666666  #fafafa AssetsWithBtnBG
+#789CAA  #666666  #fafafa AssetsWithGrayBtnBG
+
+
+#ffffff  #666666  #fafafa AssetsBG
+#333333  #666666  #fafafa AssetsBtnNomal
+#E60026  #666666  #fafafa AssetsRed
+#555555  #666666  #fafafa AssetsOrderTEXT
+
+
+
+
+
+#333333  #343434  #fafafa CELLTITLE
+#7E7E7E  #343434  #fafafa CELLDETAILTEXT
+#ededed  #343434  #fafafa CELLLINEBG
+#efefef  #343434  #fafafa CELLLINE
+
+#666666  #343434  #fafafa TEXTFIELDTEXT
+#999999  #ffffff  #fafafa LABELTEXT
+
+#E0E0E0  #ffffff  #fafafa GOOGLELINEBG
+#B2B2B2  #ffffff  #fafafa WITHDEAWPTEXTCOLOR
+#2B92BD  #ffffff  #fafafa NOTICESELBUTTONTITLECOLOR
+
+#484F50  #ffffff  #fafafa WEALLABELTEXT
+
+#E4E5E6  #ffffff  #fafafa VIEW_BG
+
+#2CA6D8  #ffffff  #fafafa ShareViewBULE
+#455C76  #ffffff  #fafafa CopyBG
+#ffffff  #ffffff  #fafafa CopyTexT
+
+
+
