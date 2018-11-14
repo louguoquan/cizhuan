@@ -342,6 +342,17 @@
 		C18D0F2521425A8F00052BCB /* JJGiftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C18D0F2421425A8F00052BCB /* JJGiftModel.m */; };
 		C18D46F6219C11FE00C2D7E0 /* CTParamterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C18D46F5219C11FE00C2D7E0 /* CTParamterViewController.m */; };
 		C18D46F9219C135600C2D7E0 /* CTParamerHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = C18D46F8219C135600C2D7E0 /* CTParamerHeadView.m */; };
+		C18D46FE219C2FF700C2D7E0 /* XuanCheDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C18D46FA219C2FF600C2D7E0 /* XuanCheDataModel.m */; };
+		C18D46FF219C2FF700C2D7E0 /* BrandsDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C18D46FC219C2FF600C2D7E0 /* BrandsDetailModel.m */; };
+		C18D4706219C300300C2D7E0 /* HotbrandsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C18D4702219C300300C2D7E0 /* HotbrandsCell.m */; };
+		C18D4707219C300300C2D7E0 /* AdvertCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C18D4704219C300300C2D7E0 /* AdvertCell.m */; };
+		C18D4708219C300300C2D7E0 /* ListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C18D4705219C300300C2D7E0 /* ListCell.m */; };
+		C18D470D219C300B00C2D7E0 /* SelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C18D4709219C300B00C2D7E0 /* SelectTableViewController.m */; };
+		C18D470E219C300B00C2D7E0 /* BrandsDetailTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C18D470C219C300B00C2D7E0 /* BrandsDetailTVC.m */; };
+		C18D4711219C31B300C2D7E0 /* XuanCheNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C18D4710219C31B300C2D7E0 /* XuanCheNetManager.m */; };
+		C18D4714219C31D400C2D7E0 /* XuanCheBaseNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C18D4713219C31D400C2D7E0 /* XuanCheBaseNetManager.m */; };
+		C18D4717219C32A200C2D7E0 /* NSObject+parse.m in Sources */ = {isa = PBXBuildFile; fileRef = C18D4716219C32A200C2D7E0 /* NSObject+parse.m */; };
+		C18D471A219C32DF00C2D7E0 /* NSString+RM.m in Sources */ = {isa = PBXBuildFile; fileRef = C18D4718219C32DE00C2D7E0 /* NSString+RM.m */; };
 		C18FD596212BEEDF00F460AD /* PTLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C18FD595212BEEDF00F460AD /* PTLAlertView.m */; };
 		C1961F832105D50300EBB151 /* JJRegistNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1961F822105D50300EBB151 /* JJRegistNextViewController.m */; };
 		C1961F902105E0A100EBB151 /* CodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1961F8C2105E0A100EBB151 /* CodeView.m */; };
@@ -1267,6 +1278,28 @@
 		C18D46F5219C11FE00C2D7E0 /* CTParamterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTParamterViewController.m; sourceTree = "<group>"; };
 		C18D46F7219C135600C2D7E0 /* CTParamerHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTParamerHeadView.h; sourceTree = "<group>"; };
 		C18D46F8219C135600C2D7E0 /* CTParamerHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTParamerHeadView.m; sourceTree = "<group>"; };
+		C18D46FA219C2FF600C2D7E0 /* XuanCheDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XuanCheDataModel.m; sourceTree = "<group>"; };
+		C18D46FB219C2FF600C2D7E0 /* BrandsDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandsDetailModel.h; sourceTree = "<group>"; };
+		C18D46FC219C2FF600C2D7E0 /* BrandsDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandsDetailModel.m; sourceTree = "<group>"; };
+		C18D46FD219C2FF600C2D7E0 /* XuanCheDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XuanCheDataModel.h; sourceTree = "<group>"; };
+		C18D4700219C300300C2D7E0 /* HotbrandsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotbrandsCell.h; sourceTree = "<group>"; };
+		C18D4701219C300300C2D7E0 /* AdvertCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertCell.h; sourceTree = "<group>"; };
+		C18D4702219C300300C2D7E0 /* HotbrandsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotbrandsCell.m; sourceTree = "<group>"; };
+		C18D4703219C300300C2D7E0 /* ListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListCell.h; sourceTree = "<group>"; };
+		C18D4704219C300300C2D7E0 /* AdvertCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertCell.m; sourceTree = "<group>"; };
+		C18D4705219C300300C2D7E0 /* ListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListCell.m; sourceTree = "<group>"; };
+		C18D4709219C300B00C2D7E0 /* SelectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectTableViewController.m; sourceTree = "<group>"; };
+		C18D470A219C300B00C2D7E0 /* SelectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectTableViewController.h; sourceTree = "<group>"; };
+		C18D470B219C300B00C2D7E0 /* BrandsDetailTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandsDetailTVC.h; sourceTree = "<group>"; };
+		C18D470C219C300B00C2D7E0 /* BrandsDetailTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandsDetailTVC.m; sourceTree = "<group>"; };
+		C18D470F219C31B200C2D7E0 /* XuanCheNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XuanCheNetManager.h; sourceTree = "<group>"; };
+		C18D4710219C31B300C2D7E0 /* XuanCheNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XuanCheNetManager.m; sourceTree = "<group>"; };
+		C18D4712219C31D400C2D7E0 /* XuanCheBaseNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XuanCheBaseNetManager.h; sourceTree = "<group>"; };
+		C18D4713219C31D400C2D7E0 /* XuanCheBaseNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XuanCheBaseNetManager.m; sourceTree = "<group>"; };
+		C18D4715219C32A200C2D7E0 /* NSObject+parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+parse.h"; sourceTree = "<group>"; };
+		C18D4716219C32A200C2D7E0 /* NSObject+parse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+parse.m"; sourceTree = "<group>"; };
+		C18D4718219C32DE00C2D7E0 /* NSString+RM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RM.m"; sourceTree = "<group>"; };
+		C18D4719219C32DE00C2D7E0 /* NSString+RM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RM.h"; sourceTree = "<group>"; };
 		C18FD594212BEEDF00F460AD /* PTLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTLAlertView.h; sourceTree = "<group>"; };
 		C18FD595212BEEDF00F460AD /* PTLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTLAlertView.m; sourceTree = "<group>"; };
 		C1961F7E2105C4F300EBB151 /* JJRegistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJRegistViewController.h; sourceTree = "<group>"; };
@@ -3980,6 +4013,12 @@
 		C1BE39A8219A8384007472BE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C18D4701219C300300C2D7E0 /* AdvertCell.h */,
+				C18D4704219C300300C2D7E0 /* AdvertCell.m */,
+				C18D4700219C300300C2D7E0 /* HotbrandsCell.h */,
+				C18D4702219C300300C2D7E0 /* HotbrandsCell.m */,
+				C18D4703219C300300C2D7E0 /* ListCell.h */,
+				C18D4705219C300300C2D7E0 /* ListCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -3987,6 +4026,18 @@
 		C1BE39A9219A8384007472BE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C18D4719219C32DE00C2D7E0 /* NSString+RM.h */,
+				C18D4718219C32DE00C2D7E0 /* NSString+RM.m */,
+				C18D4712219C31D400C2D7E0 /* XuanCheBaseNetManager.h */,
+				C18D4715219C32A200C2D7E0 /* NSObject+parse.h */,
+				C18D4716219C32A200C2D7E0 /* NSObject+parse.m */,
+				C18D4713219C31D400C2D7E0 /* XuanCheBaseNetManager.m */,
+				C18D46FB219C2FF600C2D7E0 /* BrandsDetailModel.h */,
+				C18D470F219C31B200C2D7E0 /* XuanCheNetManager.h */,
+				C18D4710219C31B300C2D7E0 /* XuanCheNetManager.m */,
+				C18D46FC219C2FF600C2D7E0 /* BrandsDetailModel.m */,
+				C18D46FD219C2FF600C2D7E0 /* XuanCheDataModel.h */,
+				C18D46FA219C2FF600C2D7E0 /* XuanCheDataModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -3994,6 +4045,10 @@
 		C1BE39AA219A8384007472BE /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				C18D470B219C300B00C2D7E0 /* BrandsDetailTVC.h */,
+				C18D470C219C300B00C2D7E0 /* BrandsDetailTVC.m */,
+				C18D470A219C300B00C2D7E0 /* SelectTableViewController.h */,
+				C18D4709219C300B00C2D7E0 /* SelectTableViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -4700,12 +4755,14 @@
 				9ACF73471F7D1EFE002AD89C /* YSAddressView.m in Sources */,
 				E932C95320BA5E07007BFD53 /* JYRechargeNoticeView.m in Sources */,
 				C1B099D920B2D04A00D98A61 /* Y_KLineGroupModel.m in Sources */,
+				C18D4714219C31D400C2D7E0 /* XuanCheBaseNetManager.m in Sources */,
 				C1962038210CA9F000EBB151 /* JJLoginService.m in Sources */,
 				C1961FA42106C34100EBB151 /* FloatingBallHeader.m in Sources */,
 				C1B09A5C20B6A5F900D98A61 /* JYKLineHeaderView.m in Sources */,
 				9ACF73281F7D1EFE002AD89C /* YSIntegralRulesViewController.m in Sources */,
 				C1659EB620BE583800D45861 /* JYOutPutCell.m in Sources */,
 				C1E22D8C20F3908900F3AB75 /* UIImage+BoxBlur.m in Sources */,
+				C18D4708219C300300C2D7E0 /* ListCell.m in Sources */,
 				9ACF732A1F7D1EFE002AD89C /* YSMyIntegralViewController.m in Sources */,
 				C11DCA922110966800CFB439 /* JJBuyInfoModel.m in Sources */,
 				9ACF73401F7D1EFE002AD89C /* YSFans.m in Sources */,
@@ -4745,6 +4802,7 @@
 				9A2370E31F17117A0069ADF1 /* MBProgressHUD+Sunday.m in Sources */,
 				9ACF73421F7D1EFE002AD89C /* YSOrderProduct.m in Sources */,
 				E957B21620BB9F7500D381B4 /* JYBuyOrderListCell.m in Sources */,
+				C18D471A219C32DF00C2D7E0 /* NSString+RM.m in Sources */,
 				E98E3C4320D3C34E00A9FF14 /* JYCountryController.m in Sources */,
 				C1B099F120B3BFEE00D98A61 /* JYMarketModel.m in Sources */,
 				C10FC7D920C9159400A95A6D /* JYInvitationViewController.m in Sources */,
@@ -4775,12 +4833,14 @@
 				9AB4539B1F3AAFB200A4C9F2 /* YSPlaceholderTextView.m in Sources */,
 				9A4612A31F3D61590091E665 /* YSPanicBuyTableViewCell.m in Sources */,
 				C18D0EC8213E379F00052BCB /* JJCheckOutViewController.m in Sources */,
+				C18D46FE219C2FF700C2D7E0 /* XuanCheDataModel.m in Sources */,
 				E932C92C20B7A2B8007BFD53 /* JYBindGoogleCodeController.m in Sources */,
 				E9359D1A20B5163B0042C298 /* JYAccountAuthController.m in Sources */,
 				9ADD783C1F2EC49800FF9E93 /* YSLifeCircleViewController.m in Sources */,
 				C1E54FD8216CAC970048390F /* JJNoteListCell.m in Sources */,
 				9A2903181F4156E20001BBD1 /* YSMerchantFooterView.m in Sources */,
 				E90E789B20E0D0E2008BB89E /* JYCoinInfoModel.m in Sources */,
+				C18D46FF219C2FF700C2D7E0 /* BrandsDetailModel.m in Sources */,
 				C196201B2109CA5C00EBB151 /* JJRegistWithEmailViewController.m in Sources */,
 				9AB4539C1F3AAFB200A4C9F2 /* YSScrollView.m in Sources */,
 				C1B09A4520B5AAB500D98A61 /* JYMarketAdvertiseView.m in Sources */,
@@ -4912,6 +4972,7 @@
 				9AE8A6E31F4E807C00910301 /* YSMerchantsViewController.m in Sources */,
 				E957B21A20BB9FF400D381B4 /* JYC2CBuyNextView.m in Sources */,
 				E9D2740520B730090019C86C /* JYBindGoogleAuthController.m in Sources */,
+				C18D470E219C300B00C2D7E0 /* BrandsDetailTVC.m in Sources */,
 				C1EF495220B7E29800B93899 /* JYWithdrawalView.m in Sources */,
 				C1961FF121096F9F00EBB151 /* JJCoinOutView.m in Sources */,
 				9A2903091F4145170001BBD1 /* YSValidateButton.m in Sources */,
@@ -4944,7 +5005,9 @@
 				9A6EEE251F31787100F2A488 /* UINavigationBar+YSLucency.m in Sources */,
 				C1C22E6F2121C3C400A66931 /* JJTaskModel.m in Sources */,
 				9A2370CC1F17117A0069ADF1 /* YSPlainTableViewController.m in Sources */,
+				C18D4707219C300300C2D7E0 /* AdvertCell.m in Sources */,
 				9AE8A7001F53B49D00910301 /* TAPageControl.m in Sources */,
+				C18D4711219C31B300C2D7E0 /* XuanCheNetManager.m in Sources */,
 				9ACF73231F7D1EFE002AD89C /* YSCommentPublishViewController.m in Sources */,
 				9A6EEE1F1F3173B800F2A488 /* UIScrollView+YSHeaderScaleImage.m in Sources */,
 				C19620092109AB0C00EBB151 /* JJADListModel.m in Sources */,
@@ -5036,6 +5099,7 @@
 				C1962027210B128300EBB151 /* JJTransferListViewController.m in Sources */,
 				E957B21920BB9F9B00D381B4 /* JYWithdrawalTransferView.m in Sources */,
 				E9D90C0620BEA09500203260 /* JYLoginService.m in Sources */,
+				C18D4717219C32A200C2D7E0 /* NSObject+parse.m in Sources */,
 				9ACF733A1F7D1EFE002AD89C /* YSWalletViewController.m in Sources */,
 				C1961FDA21084AB700EBB151 /* JJWalletViewController.m in Sources */,
 				C19620062109AAEF00EBB151 /* JJADListCell.m in Sources */,
@@ -5146,7 +5210,9 @@
 				C1961FA72106C36900EBB151 /* JJCalculateViewController.m in Sources */,
 				9ACF733E1F7D1EFE002AD89C /* YSCalendarComponent.m in Sources */,
 				9A2370E81F17117A0069ADF1 /* NSDictionary+Sunday.m in Sources */,
+				C18D4706219C300300C2D7E0 /* HotbrandsCell.m in Sources */,
 				C1C18357211880BD001D9EC3 /* JJMineCalculateListViewController.m in Sources */,
+				C18D470D219C300B00C2D7E0 /* SelectTableViewController.m in Sources */,
 				9ADF06EE1F4AE09C0035ECA8 /* YSSeckillProduct.m in Sources */,
 				C1EF495820B8030F00B93899 /* JYBankModel.m in Sources */,
 				9A2370E61F17117A0069ADF1 /* NSData+Sunday.m in Sources */,

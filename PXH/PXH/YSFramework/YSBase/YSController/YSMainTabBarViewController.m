@@ -33,6 +33,7 @@
 
 #import "CTHomeSubViewController.h"
 #import "CTWordOfMouthViewController.h"
+#import "SelectTableViewController.h"
 
 @interface YSMainTabBarViewController ()
 
@@ -63,7 +64,7 @@
     JJWalletViewController *circle = [[JJWalletViewController alloc] init];
     [self addChildViewController:circle image:@"zichan" selectedImage:@"zichan_press" title:@"免费设计"];
     
-    JJWalletViewController *circle1 = [[JJWalletViewController alloc] init];
+    SelectTableViewController *circle1 = [[SelectTableViewController alloc] init];
     [self addChildViewController:circle1 image:@"zichan" selectedImage:@"zichan_press" title:@"选砖"];
     
     JYMineController *mineVC = [[JYMineController alloc] init];

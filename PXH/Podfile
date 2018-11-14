@@ -55,7 +55,11 @@ target 'PXH' do
     pod 'YYCache'
     pod 'YYImage'
     pod 'YYWebImage'
-    
+    pod 'YYModel'
+#    pod 'YYKit'
+  pod 'BlocksKit'
+
+      
     pod 'RBBAnimation'
     
     pod 'ZYSideSlipFilter', '~> 0.5.0'
