@@ -25,7 +25,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    [self configureShowFilterButton];
+    //    [self configureShowFilterButton];
+    
+    self.navigationItem.title = @"铺贴助手";
+    
     self.filterController = [[ZYSideSlipFilterController alloc] initWithSponsor:self
                                                                      resetBlock:^(NSArray *dataList) {
                                                                          for (ZYSideSlipFilterRegionModel *model in dataList) {
@@ -80,7 +83,7 @@
     _filterController.sideSlipLeading = 0;
     _filterController.dataList = [self packageDataList];
     
-//     [_filterController show];
+    //     [_filterController show];
     
     [self.view addSubview:self.filterController.view];
     [self.filterController.view mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -104,16 +107,23 @@
 - (NSArray *)packageDataList {
     NSMutableArray *dataArray = [NSMutableArray array];
     //    [dataArray addObject:[self serviceFilterRegionModel]];
-    [dataArray addObject:[self priceFilterRegionModel]];
-    [dataArray addObject:[self allCategoryFilterRegionModel]];
-    [dataArray addObject:[self spaceFilterRegionModel]];
+    //    [dataArray addObject:[self priceFilterRegionModel]];
+    //    [dataArray addObject:[self allCategoryFilterRegionModel]];
+    
     [dataArray addObject:[self commonFilterRegionModelWithKeyword:@"品牌" selectionType:BrandTableViewCellSelectionTypeMultiple]];
+    [dataArray addObject:[self spaceFilterRegionModel]];
     [dataArray addObject:[self commonFilterRegionModelWithKeyword:@"种类" selectionType:BrandTableViewCellSelectionTypeSingle]];
+    [dataArray addObject:[self spaceFilterRegionModel]];
     [dataArray addObject:[self commonFilterRegionModelWithKeyword:@"特性" selectionType:BrandTableViewCellSelectionTypeMultiple]];
+    [dataArray addObject:[self spaceFilterRegionModel]];
     [dataArray addObject:[self commonFilterRegionModelWithKeyword:@"适用场景" selectionType:BrandTableViewCellSelectionTypeMultiple]];
+    [dataArray addObject:[self spaceFilterRegionModel]];
     [dataArray addObject:[self commonFilterRegionModelWithKeyword:@"重量" selectionType:BrandTableViewCellSelectionTypeMultiple]];
+    [dataArray addObject:[self spaceFilterRegionModel]];
     [dataArray addObject:[self commonFilterRegionModelWithKeyword:@"包装" selectionType:BrandTableViewCellSelectionTypeMultiple]];
+    [dataArray addObject:[self spaceFilterRegionModel]];
     [dataArray addObject:[self commonFilterRegionModelWithKeyword:@"存储方式" selectionType:BrandTableViewCellSelectionTypeMultiple]];
+    [dataArray addObject:[self spaceFilterRegionModel]];
     [dataArray addObject:[self commonFilterRegionModelWithKeyword:@"货仓" selectionType:BrandTableViewCellSelectionTypeMultiple]];
     return [dataArray mutableCopy];
 }

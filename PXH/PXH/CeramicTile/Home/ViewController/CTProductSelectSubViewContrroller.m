@@ -8,6 +8,7 @@
 
 #import "CTProductSelectSubViewContrroller.h"
 #import "CTProductCell.h"
+#import "CTProductDetailViewController.h"
 
 @interface CTProductSelectSubViewContrroller ()
 
@@ -33,6 +34,13 @@
 {
     CTProductCell *cell = [tableView dequeueReusableCellWithIdentifier:@"CTProductCell"];
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    CTProductDetailViewController *vc = [[CTProductDetailViewController alloc]init];
+    vc.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

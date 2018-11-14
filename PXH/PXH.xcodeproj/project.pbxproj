@@ -290,6 +290,7 @@
 		C10FC7EE20CBB10B00A95A6D /* JYCommissionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C10FC7ED20CBB10B00A95A6D /* JYCommissionModel.m */; };
 		C110EC9820EE222000E1027A /* JYKlineHeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C110EC9720EE222000E1027A /* JYKlineHeaderModel.m */; };
 		C11986EA20D3F5040091AD17 /* JYTradingBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C11986E920D3F5040091AD17 /* JYTradingBaseModel.m */; };
+		C11A5A90219BFFD5009D4458 /* CTProductDetailBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = C11A5A8F219BFFD5009D4458 /* CTProductDetailBottomView.m */; };
 		C11C062C2199884E001A09B3 /* CTHomeSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C11C062B2199884E001A09B3 /* CTHomeSubViewController.m */; };
 		C11C062F219989DC001A09B3 /* CTHomeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C11C062E219989DC001A09B3 /* CTHomeListViewController.m */; };
 		C11C063221998C92001A09B3 /* CTHomeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = C11C063121998C92001A09B3 /* CTHomeHeadView.m */; };
@@ -305,10 +306,15 @@
 		C128589A20DB954C0081E860 /* JXGuideFigure.m in Sources */ = {isa = PBXBuildFile; fileRef = C128589720DB954B0081E860 /* JXGuideFigure.m */; };
 		C12D53162186BA01003B1F56 /* JJShareQRCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C12D53152186BA01003B1F56 /* JJShareQRCodeView.m */; };
 		C12D53192186BAC7003B1F56 /* QRCodeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C12D53182186BAC6003B1F56 /* QRCodeImage.m */; };
+		C12E4089219BCE6F00513064 /* CTProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C12E4088219BCE6F00513064 /* CTProductDetailViewController.m */; };
+		C12E408C219BCE9700513064 /* CTProductDetailSpecialCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C12E408B219BCE9700513064 /* CTProductDetailSpecialCell.m */; };
+		C12E408F219BCEAC00513064 /* CTProductDetailCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C12E408E219BCEAC00513064 /* CTProductDetailCommentCell.m */; };
 		C146658820CEAB8700D19C50 /* UIButton+Layouts.m in Sources */ = {isa = PBXBuildFile; fileRef = C146658720CEAB8700D19C50 /* UIButton+Layouts.m */; };
 		C146658D20CEABAB00D19C50 /* JYBenefitsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C146658920CEABAA00D19C50 /* JYBenefitsCell.m */; };
 		C146658E20CEABAB00D19C50 /* JYShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = C146658C20CEABAB00D19C50 /* JYShareView.m */; };
 		C146659420CFB43D00D19C50 /* JYDefaultDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C146659320CFB43D00D19C50 /* JYDefaultDataModel.m */; };
+		C148D571219C0E6A00208FC0 /* CTWordOfMouthAllListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C148D570219C0E6A00208FC0 /* CTWordOfMouthAllListViewController.m */; };
+		C148D574219C0E8900208FC0 /* CTWordOfMouthListSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C148D573219C0E8900208FC0 /* CTWordOfMouthListSubViewController.m */; };
 		C15F470820B2CD3A00A696C2 /* YSPayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C15F470720B2CD3A00A696C2 /* YSPayManager.m */; };
 		C1659EB320BE524800D45861 /* LrdOutputView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1659EB120BE524700D45861 /* LrdOutputView.m */; };
 		C1659EB620BE583800D45861 /* JYOutPutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1659EB520BE583800D45861 /* JYOutPutCell.m */; };
@@ -334,6 +340,8 @@
 		C18D0ED5213F809A00052BCB /* JYLogInController.m in Sources */ = {isa = PBXBuildFile; fileRef = C18D0ED4213F809A00052BCB /* JYLogInController.m */; };
 		C18D0F222141649E00052BCB /* JJOrderBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C18D0F212141649E00052BCB /* JJOrderBaseModel.m */; };
 		C18D0F2521425A8F00052BCB /* JJGiftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C18D0F2421425A8F00052BCB /* JJGiftModel.m */; };
+		C18D46F6219C11FE00C2D7E0 /* CTParamterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C18D46F5219C11FE00C2D7E0 /* CTParamterViewController.m */; };
+		C18D46F9219C135600C2D7E0 /* CTParamerHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = C18D46F8219C135600C2D7E0 /* CTParamerHeadView.m */; };
 		C18FD596212BEEDF00F460AD /* PTLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C18FD595212BEEDF00F460AD /* PTLAlertView.m */; };
 		C1961F832105D50300EBB151 /* JJRegistNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1961F822105D50300EBB151 /* JJRegistNextViewController.m */; };
 		C1961F902105E0A100EBB151 /* CodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1961F8C2105E0A100EBB151 /* CodeView.m */; };
@@ -474,6 +482,9 @@
 		C1CE5801219B014600023321 /* SideSlipCommonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CE57EC219B014600023321 /* SideSlipCommonTableViewCell.m */; };
 		C1CE5802219B014600023321 /* SideSlipServiceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1CE57ED219B014600023321 /* SideSlipServiceTableViewCell.xib */; };
 		C1CE5803219B014600023321 /* SideSlipAllCategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1CE57EF219B014600023321 /* SideSlipAllCategoryTableViewCell.xib */; };
+		C1CE5806219B072200023321 /* CTBrandRankingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CE5805219B072200023321 /* CTBrandRankingViewController.m */; };
+		C1CE5809219B07A700023321 /* CTBrandRankingListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CE5808219B07A700023321 /* CTBrandRankingListViewController.m */; };
+		C1CE580C219B08E400023321 /* CTBrandRankCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CE580B219B08E400023321 /* CTBrandRankCell.m */; };
 		C1E22D8420EF923B00F3AB75 /* JYWithdrawNoticeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E22D8320EF923B00F3AB75 /* JYWithdrawNoticeModel.m */; };
 		C1E22D8B20F3908900F3AB75 /* DRNRealTimeBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E22D8820F3908800F3AB75 /* DRNRealTimeBlurView.m */; };
 		C1E22D8C20F3908900F3AB75 /* UIImage+BoxBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E22D8A20F3908800F3AB75 /* UIImage+BoxBlur.m */; };
@@ -1151,6 +1162,8 @@
 		C110EC9720EE222000E1027A /* JYKlineHeaderModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYKlineHeaderModel.m; sourceTree = "<group>"; };
 		C11986E820D3F5040091AD17 /* JYTradingBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYTradingBaseModel.h; sourceTree = "<group>"; };
 		C11986E920D3F5040091AD17 /* JYTradingBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYTradingBaseModel.m; sourceTree = "<group>"; };
+		C11A5A8E219BFFD5009D4458 /* CTProductDetailBottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTProductDetailBottomView.h; sourceTree = "<group>"; };
+		C11A5A8F219BFFD5009D4458 /* CTProductDetailBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTProductDetailBottomView.m; sourceTree = "<group>"; };
 		C11C062A2199884E001A09B3 /* CTHomeSubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTHomeSubViewController.h; sourceTree = "<group>"; };
 		C11C062B2199884E001A09B3 /* CTHomeSubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTHomeSubViewController.m; sourceTree = "<group>"; };
 		C11C062D219989DC001A09B3 /* CTHomeListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTHomeListViewController.h; sourceTree = "<group>"; };
@@ -1182,6 +1195,12 @@
 		C12D53152186BA01003B1F56 /* JJShareQRCodeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJShareQRCodeView.m; sourceTree = "<group>"; };
 		C12D53172186BAC5003B1F56 /* QRCodeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeImage.h; sourceTree = "<group>"; };
 		C12D53182186BAC6003B1F56 /* QRCodeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeImage.m; sourceTree = "<group>"; };
+		C12E4087219BCE6F00513064 /* CTProductDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTProductDetailViewController.h; sourceTree = "<group>"; };
+		C12E4088219BCE6F00513064 /* CTProductDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTProductDetailViewController.m; sourceTree = "<group>"; };
+		C12E408A219BCE9700513064 /* CTProductDetailSpecialCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTProductDetailSpecialCell.h; sourceTree = "<group>"; };
+		C12E408B219BCE9700513064 /* CTProductDetailSpecialCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTProductDetailSpecialCell.m; sourceTree = "<group>"; };
+		C12E408D219BCEAC00513064 /* CTProductDetailCommentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTProductDetailCommentCell.h; sourceTree = "<group>"; };
+		C12E408E219BCEAC00513064 /* CTProductDetailCommentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTProductDetailCommentCell.m; sourceTree = "<group>"; };
 		C146658620CEAB7800D19C50 /* UIButton+Layouts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Layouts.h"; sourceTree = "<group>"; };
 		C146658720CEAB8700D19C50 /* UIButton+Layouts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Layouts.m"; sourceTree = "<group>"; };
 		C146658920CEABAA00D19C50 /* JYBenefitsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBenefitsCell.m; sourceTree = "<group>"; };
@@ -1190,6 +1209,10 @@
 		C146658C20CEABAB00D19C50 /* JYShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYShareView.m; sourceTree = "<group>"; };
 		C146659220CFB43D00D19C50 /* JYDefaultDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYDefaultDataModel.h; sourceTree = "<group>"; };
 		C146659320CFB43D00D19C50 /* JYDefaultDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYDefaultDataModel.m; sourceTree = "<group>"; };
+		C148D56F219C0E6A00208FC0 /* CTWordOfMouthAllListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTWordOfMouthAllListViewController.h; sourceTree = "<group>"; };
+		C148D570219C0E6A00208FC0 /* CTWordOfMouthAllListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTWordOfMouthAllListViewController.m; sourceTree = "<group>"; };
+		C148D572219C0E8900208FC0 /* CTWordOfMouthListSubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTWordOfMouthListSubViewController.h; sourceTree = "<group>"; };
+		C148D573219C0E8900208FC0 /* CTWordOfMouthListSubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTWordOfMouthListSubViewController.m; sourceTree = "<group>"; };
 		C15F470620B2CD3A00A696C2 /* YSPayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSPayManager.h; sourceTree = "<group>"; };
 		C15F470720B2CD3A00A696C2 /* YSPayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSPayManager.m; sourceTree = "<group>"; };
 		C1659EB120BE524700D45861 /* LrdOutputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LrdOutputView.m; sourceTree = "<group>"; };
@@ -1240,6 +1263,10 @@
 		C18D0F212141649E00052BCB /* JJOrderBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJOrderBaseModel.m; sourceTree = "<group>"; };
 		C18D0F2321425A8F00052BCB /* JJGiftModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJGiftModel.h; sourceTree = "<group>"; };
 		C18D0F2421425A8F00052BCB /* JJGiftModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJGiftModel.m; sourceTree = "<group>"; };
+		C18D46F4219C11FE00C2D7E0 /* CTParamterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTParamterViewController.h; sourceTree = "<group>"; };
+		C18D46F5219C11FE00C2D7E0 /* CTParamterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTParamterViewController.m; sourceTree = "<group>"; };
+		C18D46F7219C135600C2D7E0 /* CTParamerHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTParamerHeadView.h; sourceTree = "<group>"; };
+		C18D46F8219C135600C2D7E0 /* CTParamerHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTParamerHeadView.m; sourceTree = "<group>"; };
 		C18FD594212BEEDF00F460AD /* PTLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTLAlertView.h; sourceTree = "<group>"; };
 		C18FD595212BEEDF00F460AD /* PTLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTLAlertView.m; sourceTree = "<group>"; };
 		C1961F7E2105C4F300EBB151 /* JJRegistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJRegistViewController.h; sourceTree = "<group>"; };
@@ -1515,6 +1542,12 @@
 		C1CE57ED219B014600023321 /* SideSlipServiceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideSlipServiceTableViewCell.xib; sourceTree = "<group>"; };
 		C1CE57EE219B014600023321 /* SideSlipServiceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideSlipServiceTableViewCell.h; sourceTree = "<group>"; };
 		C1CE57EF219B014600023321 /* SideSlipAllCategoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideSlipAllCategoryTableViewCell.xib; sourceTree = "<group>"; };
+		C1CE5804219B072200023321 /* CTBrandRankingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTBrandRankingViewController.h; sourceTree = "<group>"; };
+		C1CE5805219B072200023321 /* CTBrandRankingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTBrandRankingViewController.m; sourceTree = "<group>"; };
+		C1CE5807219B07A700023321 /* CTBrandRankingListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTBrandRankingListViewController.h; sourceTree = "<group>"; };
+		C1CE5808219B07A700023321 /* CTBrandRankingListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTBrandRankingListViewController.m; sourceTree = "<group>"; };
+		C1CE580A219B08E400023321 /* CTBrandRankCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTBrandRankCell.h; sourceTree = "<group>"; };
+		C1CE580B219B08E400023321 /* CTBrandRankCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTBrandRankCell.m; sourceTree = "<group>"; };
 		C1E22D8220EF923B00F3AB75 /* JYWithdrawNoticeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYWithdrawNoticeModel.h; sourceTree = "<group>"; };
 		C1E22D8320EF923B00F3AB75 /* JYWithdrawNoticeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYWithdrawNoticeModel.m; sourceTree = "<group>"; };
 		C1E22D8720F3908700F3AB75 /* DRNRealTimeBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRNRealTimeBlurView.h; sourceTree = "<group>"; };
@@ -2837,6 +2870,14 @@
 				C1BE39BC219AC8E5007472BE /* CTProductSelectSubViewContrroller.m */,
 				C174D807219AFF6C00577E70 /* CTPuTieViewController.h */,
 				C174D808219AFF6C00577E70 /* CTPuTieViewController.m */,
+				C1CE5804219B072200023321 /* CTBrandRankingViewController.h */,
+				C1CE5805219B072200023321 /* CTBrandRankingViewController.m */,
+				C1CE5807219B07A700023321 /* CTBrandRankingListViewController.h */,
+				C1CE5808219B07A700023321 /* CTBrandRankingListViewController.m */,
+				C12E4087219BCE6F00513064 /* CTProductDetailViewController.h */,
+				C12E4088219BCE6F00513064 /* CTProductDetailViewController.m */,
+				C18D46F4219C11FE00C2D7E0 /* CTParamterViewController.h */,
+				C18D46F5219C11FE00C2D7E0 /* CTParamterViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -2850,6 +2891,16 @@
 				C1BE3997219A7BC5007472BE /* CTTuiJianTableViewCell.m */,
 				C1BE39BE219ACA94007472BE /* CTProductCell.h */,
 				C1BE39BF219ACA94007472BE /* CTProductCell.m */,
+				C1CE580A219B08E400023321 /* CTBrandRankCell.h */,
+				C1CE580B219B08E400023321 /* CTBrandRankCell.m */,
+				C12E408A219BCE9700513064 /* CTProductDetailSpecialCell.h */,
+				C12E408B219BCE9700513064 /* CTProductDetailSpecialCell.m */,
+				C12E408D219BCEAC00513064 /* CTProductDetailCommentCell.h */,
+				C12E408E219BCEAC00513064 /* CTProductDetailCommentCell.m */,
+				C11A5A8E219BFFD5009D4458 /* CTProductDetailBottomView.h */,
+				C11A5A8F219BFFD5009D4458 /* CTProductDetailBottomView.m */,
+				C18D46F7219C135600C2D7E0 /* CTParamerHeadView.h */,
+				C18D46F8219C135600C2D7E0 /* CTParamerHeadView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -3825,6 +3876,10 @@
 			children = (
 				C1BE39AF219A83B5007472BE /* CTWordOfMouthViewController.h */,
 				C1BE39B0219A83B5007472BE /* CTWordOfMouthViewController.m */,
+				C148D56F219C0E6A00208FC0 /* CTWordOfMouthAllListViewController.h */,
+				C148D570219C0E6A00208FC0 /* CTWordOfMouthAllListViewController.m */,
+				C148D572219C0E8900208FC0 /* CTWordOfMouthListSubViewController.h */,
+				C148D573219C0E8900208FC0 /* CTWordOfMouthListSubViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -4589,6 +4644,7 @@
 				C1961FFA21099EF100EBB151 /* JJCoinInOrOutCell.m in Sources */,
 				9A6EEDFC1F3020CB00F2A488 /* YSCateHeaderView.m in Sources */,
 				C1B099D620B2D04A00D98A61 /* Y_AccessoryMAView.m in Sources */,
+				C12E408C219BCE9700513064 /* CTProductDetailSpecialCell.m in Sources */,
 				9ACF732D1F7D1EFE002AD89C /* YSOrderTableViewController.m in Sources */,
 				9A2370C91F17117A0069ADF1 /* YSGroupedTableViewController.m in Sources */,
 				C1CE57F3219B014600023321 /* PriceRangeModel.m in Sources */,
@@ -4619,6 +4675,7 @@
 				C1CE57FD219B014600023321 /* SideSlipServiceTableViewCell.m in Sources */,
 				C1CE57F4219B014600023321 /* CommonItemModel.m in Sources */,
 				C1EF496120B8173E00B93899 /* JYC2CRecordListModel.m in Sources */,
+				C148D571219C0E6A00208FC0 /* CTWordOfMouthAllListViewController.m in Sources */,
 				C1BE39B1219A83B5007472BE /* CTWordOfMouthViewController.m in Sources */,
 				622B16191FD7CF1D00AF9DAB /* YSMessage.m in Sources */,
 				C1B099E020B2D04A00D98A61 /* Y_StockChartSegmentView.m in Sources */,
@@ -4677,6 +4734,7 @@
 				9A2371001F17117A0069ADF1 /* CALayer+YYAdd.m in Sources */,
 				C1B09A4720B5AAC200D98A61 /* JYAdvertiseListViewController.m in Sources */,
 				E9359D3220B557680042C298 /* JYRateCriterionController.m in Sources */,
+				C148D574219C0E8900208FC0 /* CTWordOfMouthListSubViewController.m in Sources */,
 				9ACF732B1F7D1EFE002AD89C /* YSOrderDetailViewController.m in Sources */,
 				9ACF73371F7D1EFE002AD89C /* YSSetupViewController.m in Sources */,
 				9A2C609D1F4C4FE600968A0A /* YSWebViewController.m in Sources */,
@@ -4781,6 +4839,7 @@
 				C1961FBC2107466300EBB151 /* JJBuyCoinFinishViewController.m in Sources */,
 				C1961FB92107465200EBB151 /* JJBuyCoinNextStepViewController.m in Sources */,
 				9ACF73411F7D1EFE002AD89C /* YSOrder.m in Sources */,
+				C11A5A90219BFFD5009D4458 /* CTProductDetailBottomView.m in Sources */,
 				A63E01C21FC12C4600ED4B68 /* YSProvinceViewController.m in Sources */,
 				C1961FD12108432400EBB151 /* JJBuyCoinListModel.m in Sources */,
 				9ACF73321F7D1EFE002AD89C /* YSRechargeViewController.m in Sources */,
@@ -4811,6 +4870,7 @@
 				C11DCA8F2110736500CFB439 /* JJBuyModel.m in Sources */,
 				C1CE5800219B014600023321 /* AddressTableViewCell.m in Sources */,
 				9ACF73331F7D1EFE002AD89C /* YSRecommendViewController.m in Sources */,
+				C1CE5806219B072200023321 /* CTBrandRankingViewController.m in Sources */,
 				9A2371061F17117A0069ADF1 /* UIScrollView+YYAdd.m in Sources */,
 				E93BB49020BD2DFA00F89447 /* JYVerifFundsPwsController.m in Sources */,
 				C1E54FDB216CE4150048390F /* JJNoteListModel.m in Sources */,
@@ -4917,6 +4977,7 @@
 				9ADF06BE1F4966D10035ECA8 /* YSCartProduct.m in Sources */,
 				9A305AEF1F45834E0037DD67 /* YSTagListLayout.m in Sources */,
 				E9359D3E20B587470042C298 /* JYContactSynopsisController.m in Sources */,
+				C1CE5809219B07A700023321 /* CTBrandRankingListViewController.m in Sources */,
 				C146659420CFB43D00D19C50 /* JYDefaultDataModel.m in Sources */,
 				C18D0EBF213E228600052BCB /* JJCardListModel.m in Sources */,
 				9ACF73341F7D1EFE002AD89C /* YSRefundsApplyViewController.m in Sources */,
@@ -4929,6 +4990,7 @@
 				9A305AF51F458BB80037DD67 /* YSTagHeaderView.m in Sources */,
 				9ACF73491F7D1EFE002AD89C /* YSCalendarView.m in Sources */,
 				9AB453A51F3AE32100A4C9F2 /* YSProductDescViewController.m in Sources */,
+				C1CE580C219B08E400023321 /* CTBrandRankCell.m in Sources */,
 				C1CE57F5219B014600023321 /* AddressModel.m in Sources */,
 				9A2903391F41AC560001BBD1 /* YSLifeMerchants.m in Sources */,
 				E9FB425120D51BE300767A48 /* JYCmsContentModel.m in Sources */,
@@ -4963,6 +5025,7 @@
 				9A29031B1F4175000001BBD1 /* YSAccount.m in Sources */,
 				9A2903231F4194B50001BBD1 /* YSCateService.m in Sources */,
 				9ACF73461F7D1EFE002AD89C /* YSAddressTableViewCell.m in Sources */,
+				C12E408F219BCEAC00513064 /* CTProductDetailCommentCell.m in Sources */,
 				E9EBE59D20DBDB4C009E66E4 /* JYGuideController.m in Sources */,
 				C1961F832105D50300EBB151 /* JJRegistNextViewController.m in Sources */,
 				9ACF73261F7D1EFE002AD89C /* YSCouponsViewController.m in Sources */,
@@ -5040,6 +5103,7 @@
 				628F14A01FDE344F00AD2674 /* YSLifeCategory.m in Sources */,
 				E9359D1D20B542820042C298 /* JYSystemSetupController.m in Sources */,
 				E93BB49720BD511A00F89447 /* YCXMenuItem.m in Sources */,
+				C18D46F9219C135600C2D7E0 /* CTParamerHeadView.m in Sources */,
 				9AE8A6FE1F53B49D00910301 /* TAAnimatedDotView.m in Sources */,
 				9A4612AF1F405A810091E665 /* SDProgressView.m in Sources */,
 				9A2370E51F17117A0069ADF1 /* NSArray+Sunday.m in Sources */,
@@ -5051,7 +5115,9 @@
 				9ACF733F1F7D1EFE002AD89C /* YSCoupons.m in Sources */,
 				C1B09A0120B3C21400D98A61 /* JYMarketHomeViewController.m in Sources */,
 				9A2370F51F17117A0069ADF1 /* UIView+Badge.m in Sources */,
+				C12E4089219BCE6F00513064 /* CTProductDetailViewController.m in Sources */,
 				C146658E20CEABAB00D19C50 /* JYShareView.m in Sources */,
+				C18D46F6219C11FE00C2D7E0 /* CTParamterViewController.m in Sources */,
 				C1961FEB2109635800EBB151 /* JJCoinInOrOutViewController.m in Sources */,
 				9ADF06E51F4AC4FF0035ECA8 /* YSPayViewController.m in Sources */,
 				C1E22D8420EF923B00F3AB75 /* JYWithdrawNoticeModel.m in Sources */,

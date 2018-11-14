@@ -1,59 +1,56 @@
 //
-//  CTHomeSubViewController.m
+//  CTBrandRankingViewController.m
 //  PXH
 //
-//  Created by louguoquan on 2018/11/12.
+//  Created by louguoquan on 2018/11/13.
 //  Copyright © 2018 LouGuoQuan. All rights reserved.
 //
 
-#import "CTHomeSubViewController.h"
-#import "CTHomeListViewController.h"
-#import "CTHomeHeadView.h"
-
-
-#import "CTProductSelectViewController.h"
-#import "CTPuTieViewController.h"
 #import "CTBrandRankingViewController.h"
+#import "CTBrandRankingListViewController.h"
+#import "SDCycleScrollView.h"
 
-@interface CTHomeSubViewController ()
-    
-    @end
 
-@implementation CTHomeSubViewController
-    
+@interface CTBrandRankingViewController ()<SDCycleScrollViewDelegate>
+
+@property (nonatomic,strong)SDCycleScrollView *cycleScrollView;
+@end
+
+@implementation CTBrandRankingViewController
+
 - (NSArray<NSString *> *)titles{
-    return @[@"推荐", @"图文", @"视频"];
+    return @[@"热点品牌", @"热点产品"];
 }
-    
+
 - (NSInteger)numbersOfChildControllersInPageController:(WMPageController *)pageController{
     return self.titles.count;
 }
-    
-    
+
+
 - (__kindof UIViewController *)pageController:(WMPageController *)pageController viewControllerAtIndex:(NSInteger)index{
     
-    return [[CTHomeListViewController alloc]init];
+    return [[CTBrandRankingListViewController alloc]init];
 }
-    
+
 - (CGRect)pageController:(WMPageController *)pageController preferredFrameForMenuView:(WMMenuView *)menuView{
     
-        return CGRectMake(0, kScreenWidth/4.0f+240, kScreenWidth, 40);
+    return CGRectMake(0, 150, kScreenWidth, 40);
     
 }
-    
+
 - (CGRect)pageController:(WMPageController *)pageController preferredFrameForContentView:(WMScrollView *)contentView{
     
-        return CGRectMake(0, kScreenWidth/4.0f+240+40, kScreenWidth, kScreenHeight-10);
+    return CGRectMake(0, 190, kScreenWidth, kScreenHeight-190);
     
 }
-    
+
 - (void)viewDidLoad {
     //题目的背景栏颜色
     //    self.menuBGColor = [UIColor clearColor];
     //题目的显示效果
     self.menuViewStyle = WMMenuViewStyleLine;
-    //题目的高度
-    //    self.menuHeight = 45;
+    //题目的宽度
+    self.menuItemWidth = 100;
     //设置选中文字颜色
     self.titleColorSelected = [UIColor blackColor];
     //设置未选中文字颜色
@@ -62,28 +59,15 @@
     self.progressColor = [UIColor blackColor];
     [super viewDidLoad];
     
-    CTHomeHeadView *head = [[CTHomeHeadView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, 300)];
-    head.CTHomeHeadViewSetionSelect = ^(NSInteger index) {
-        if (index == 0) {
-            CTProductSelectViewController *vc = [[CTProductSelectViewController alloc]init];
-            vc.hidesBottomBarWhenPushed = YES;
-            [self.navigationController pushViewController:vc animated:YES];
-        }else if (index ==1){
-            
-            CTPuTieViewController *vc = [[CTPuTieViewController alloc]init];
-            vc.hidesBottomBarWhenPushed = YES;
-            [self.navigationController pushViewController:vc animated:YES];
-            
-        }else if (index == 2){
-            
-        }else if (index == 3){
-            
-        }
-        
-    };
-    [self.view addSubview:head];
-    
-    
+    _cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 0, kScreenWidth, 150) delegate:self placeholderImage:[UIImage imageNamed:@"banner"]];
+    _cycleScrollView.bannerImageViewContentMode = UIViewContentModeScaleAspectFill;
+    _cycleScrollView.autoScrollTimeInterval = 5.0;
+    _cycleScrollView.pageControlDotSize = CGSizeMake(10.f, 2.f);
+    _cycleScrollView.currentPageDotImage = [UIImage imageNamed:@"line1"];
+    _cycleScrollView.pageDotImage = [UIImage imageNamed:@"line"];
+    _cycleScrollView.currentPageDotColor = [UIColor redColor];
+    //    _cycleScrollView.pageDotColor = Color_GlobalBg;
+    [self.view addSubview:_cycleScrollView];
     
     
     //    //左边导航栏

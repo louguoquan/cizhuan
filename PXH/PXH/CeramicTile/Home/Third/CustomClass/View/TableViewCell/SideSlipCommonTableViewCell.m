@@ -59,12 +59,21 @@ const int BRIEF_ROW = 2;
     _mainCollectionView.contentInset = UIEdgeInsetsMake(0, GAP_COLLECTION_ITEM, 0, GAP_COLLECTION_ITEM);
     [_mainCollectionView registerClass:[FilterCommonCollectionViewCell class] forCellWithReuseIdentifier:[FilterCommonCollectionViewCell cellReuseIdentifier]];
     self.selectionStyle = UITableViewCellSelectionStyleNone;
+    
+  
+
 }
 
 - (void)updateCellWithModel:(ZYSideSlipFilterRegionModel **)model
                   indexPath:(NSIndexPath *)indexPath {
+    
+    
     self.indexPath = indexPath;
     self.regionModel = *model;
+    
+
+    self.regionModel.isShowAll = YES;
+    
     //title
     [self.titleLabel setText:_regionModel.regionTitle];
     //content
