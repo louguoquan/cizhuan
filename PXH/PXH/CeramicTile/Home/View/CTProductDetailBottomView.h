@@ -10,7 +10,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef void(^CTBottomAskClick)();
+
+
 @interface CTProductDetailBottomView : UIView
+
+@property (nonatomic,strong)CTBottomAskClick CTBottomAskClick;
 
 @end
 

@@ -8,7 +8,7 @@
 
 #import "CTParamterViewController.h"
 #import "CTParamerHeadView.h"
-
+#import "CTParamCell.h"
 @interface CTParamterViewController ()
 
 @end
@@ -19,19 +19,23 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    CTParamerHeadView *head = [[CTParamerHeadView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, 400)];
+    CTParamerHeadView *head = [[CTParamerHeadView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, 380)];
     self.tableView.tableHeaderView = head;
+    self.tableView.estimatedRowHeight = 100;
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    [self.tableView registerClass:[CTParamCell class] forCellReuseIdentifier:@"CTParamCell"];
 
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 3;
 }
-*/
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    CTParamCell *cell = [tableView dequeueReusableCellWithIdentifier:@"CTParamCell"];
+    return cell;
+}
 
 @end

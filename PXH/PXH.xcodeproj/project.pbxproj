@@ -319,6 +319,9 @@
 		C1659EB320BE524800D45861 /* LrdOutputView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1659EB120BE524700D45861 /* LrdOutputView.m */; };
 		C1659EB620BE583800D45861 /* JYOutPutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1659EB520BE583800D45861 /* JYOutPutCell.m */; };
 		C174D809219AFF6C00577E70 /* CTPuTieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C174D808219AFF6C00577E70 /* CTPuTieViewController.m */; };
+		C177A044219D10A9000E4545 /* CTAskFloorPriceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C177A043219D10A9000E4545 /* CTAskFloorPriceViewController.m */; };
+		C177A047219D1170000E4545 /* CTAskFloorPriceHead.m in Sources */ = {isa = PBXBuildFile; fileRef = C177A046219D1170000E4545 /* CTAskFloorPriceHead.m */; };
+		C177A04A219D48EF000E4545 /* CTAskOtherFactoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C177A049219D48EF000E4545 /* CTAskOtherFactoryCell.m */; };
 		C184E23521130E44003A760B /* JJShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C184E23421130E44003A760B /* JJShareModel.m */; };
 		C184E23821132B1A003A760B /* JJTransformModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C184E23721132B1A003A760B /* JJTransformModel.m */; };
 		C184E23B21132D48003A760B /* JJTransformCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C184E23A21132D48003A760B /* JJTransformCell.m */; };
@@ -353,6 +356,7 @@
 		C18D4714219C31D400C2D7E0 /* XuanCheBaseNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C18D4713219C31D400C2D7E0 /* XuanCheBaseNetManager.m */; };
 		C18D4717219C32A200C2D7E0 /* NSObject+parse.m in Sources */ = {isa = PBXBuildFile; fileRef = C18D4716219C32A200C2D7E0 /* NSObject+parse.m */; };
 		C18D471A219C32DF00C2D7E0 /* NSString+RM.m in Sources */ = {isa = PBXBuildFile; fileRef = C18D4718219C32DE00C2D7E0 /* NSString+RM.m */; };
+		C18D471D219D0DFC00C2D7E0 /* CTParamCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C18D471C219D0DFC00C2D7E0 /* CTParamCell.m */; };
 		C18FD596212BEEDF00F460AD /* PTLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C18FD595212BEEDF00F460AD /* PTLAlertView.m */; };
 		C1961F832105D50300EBB151 /* JJRegistNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1961F822105D50300EBB151 /* JJRegistNextViewController.m */; };
 		C1961F902105E0A100EBB151 /* CodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1961F8C2105E0A100EBB151 /* CodeView.m */; };
@@ -409,6 +413,9 @@
 		C1962038210CA9F000EBB151 /* JJLoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = C1962037210CA9F000EBB151 /* JJLoginService.m */; };
 		C1962039210F052000EBB151 /* JJRegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1961F7F2105C4F300EBB151 /* JJRegistViewController.m */; };
 		C196203F210F181A00EBB151 /* JJCalculateBallModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C196203E210F181A00EBB151 /* JJCalculateBallModel.m */; };
+		C19BA8C3219D563F006263AA /* CTStuckAssistantHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = C19BA8C2219D563F006263AA /* CTStuckAssistantHeadView.m */; };
+		C19BA8C6219D6451006263AA /* CTContrastCeramicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C19BA8C5219D6451006263AA /* CTContrastCeramicViewController.m */; };
+		C19BA8C9219D6495006263AA /* CTContrastProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C19BA8C8219D6495006263AA /* CTContrastProductCell.m */; };
 		C19D554320C13D9E0009190E /* JYAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C19D554220C13D9E0009190E /* JYAsyncSocket.m */; };
 		C1B099D020B2D04A00D98A61 /* Y_KLineMAView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B0999920B2D04900D98A61 /* Y_KLineMAView.m */; };
 		C1B099D120B2D04A00D98A61 /* Y_KLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B0999A20B2D04900D98A61 /* Y_KLineView.m */; };
@@ -496,6 +503,8 @@
 		C1CE5806219B072200023321 /* CTBrandRankingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CE5805219B072200023321 /* CTBrandRankingViewController.m */; };
 		C1CE5809219B07A700023321 /* CTBrandRankingListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CE5808219B07A700023321 /* CTBrandRankingListViewController.m */; };
 		C1CE580C219B08E400023321 /* CTBrandRankCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CE580B219B08E400023321 /* CTBrandRankCell.m */; };
+		C1E19738219D4CD300F87038 /* CTStuckAssistantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E19737219D4CD300F87038 /* CTStuckAssistantViewController.m */; };
+		C1E1973B219D4CF700F87038 /* CTStuckAssistantCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E1973A219D4CF700F87038 /* CTStuckAssistantCell.m */; };
 		C1E22D8420EF923B00F3AB75 /* JYWithdrawNoticeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E22D8320EF923B00F3AB75 /* JYWithdrawNoticeModel.m */; };
 		C1E22D8B20F3908900F3AB75 /* DRNRealTimeBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E22D8820F3908800F3AB75 /* DRNRealTimeBlurView.m */; };
 		C1E22D8C20F3908900F3AB75 /* UIImage+BoxBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E22D8A20F3908800F3AB75 /* UIImage+BoxBlur.m */; };
@@ -1232,6 +1241,12 @@
 		C1659EB520BE583800D45861 /* JYOutPutCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYOutPutCell.m; sourceTree = "<group>"; };
 		C174D807219AFF6C00577E70 /* CTPuTieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTPuTieViewController.h; sourceTree = "<group>"; };
 		C174D808219AFF6C00577E70 /* CTPuTieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTPuTieViewController.m; sourceTree = "<group>"; };
+		C177A042219D10A9000E4545 /* CTAskFloorPriceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTAskFloorPriceViewController.h; sourceTree = "<group>"; };
+		C177A043219D10A9000E4545 /* CTAskFloorPriceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTAskFloorPriceViewController.m; sourceTree = "<group>"; };
+		C177A045219D1170000E4545 /* CTAskFloorPriceHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTAskFloorPriceHead.h; sourceTree = "<group>"; };
+		C177A046219D1170000E4545 /* CTAskFloorPriceHead.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTAskFloorPriceHead.m; sourceTree = "<group>"; };
+		C177A048219D48EF000E4545 /* CTAskOtherFactoryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTAskOtherFactoryCell.h; sourceTree = "<group>"; };
+		C177A049219D48EF000E4545 /* CTAskOtherFactoryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTAskOtherFactoryCell.m; sourceTree = "<group>"; };
 		C184E23321130E44003A760B /* JJShareModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJShareModel.h; sourceTree = "<group>"; };
 		C184E23421130E44003A760B /* JJShareModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJShareModel.m; sourceTree = "<group>"; };
 		C184E23621132B1A003A760B /* JJTransformModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJTransformModel.h; sourceTree = "<group>"; };
@@ -1300,6 +1315,8 @@
 		C18D4716219C32A200C2D7E0 /* NSObject+parse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+parse.m"; sourceTree = "<group>"; };
 		C18D4718219C32DE00C2D7E0 /* NSString+RM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RM.m"; sourceTree = "<group>"; };
 		C18D4719219C32DE00C2D7E0 /* NSString+RM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RM.h"; sourceTree = "<group>"; };
+		C18D471B219D0DFC00C2D7E0 /* CTParamCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTParamCell.h; sourceTree = "<group>"; };
+		C18D471C219D0DFC00C2D7E0 /* CTParamCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTParamCell.m; sourceTree = "<group>"; };
 		C18FD594212BEEDF00F460AD /* PTLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTLAlertView.h; sourceTree = "<group>"; };
 		C18FD595212BEEDF00F460AD /* PTLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTLAlertView.m; sourceTree = "<group>"; };
 		C1961F7E2105C4F300EBB151 /* JJRegistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJRegistViewController.h; sourceTree = "<group>"; };
@@ -1413,6 +1430,12 @@
 		C196203B210F177500EBB151 /* JJCalculateService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJCalculateService.m; sourceTree = "<group>"; };
 		C196203D210F181A00EBB151 /* JJCalculateBallModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJCalculateBallModel.h; sourceTree = "<group>"; };
 		C196203E210F181A00EBB151 /* JJCalculateBallModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJCalculateBallModel.m; sourceTree = "<group>"; };
+		C19BA8C1219D563F006263AA /* CTStuckAssistantHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTStuckAssistantHeadView.h; sourceTree = "<group>"; };
+		C19BA8C2219D563F006263AA /* CTStuckAssistantHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTStuckAssistantHeadView.m; sourceTree = "<group>"; };
+		C19BA8C4219D6451006263AA /* CTContrastCeramicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTContrastCeramicViewController.h; sourceTree = "<group>"; };
+		C19BA8C5219D6451006263AA /* CTContrastCeramicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTContrastCeramicViewController.m; sourceTree = "<group>"; };
+		C19BA8C7219D6495006263AA /* CTContrastProductCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTContrastProductCell.h; sourceTree = "<group>"; };
+		C19BA8C8219D6495006263AA /* CTContrastProductCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTContrastProductCell.m; sourceTree = "<group>"; };
 		C19D554120C13D9E0009190E /* JYAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYAsyncSocket.h; sourceTree = "<group>"; };
 		C19D554220C13D9E0009190E /* JYAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYAsyncSocket.m; sourceTree = "<group>"; };
 		C1B0999520B2D04900D98A61 /* Y_StockChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Y_StockChartView.h; sourceTree = "<group>"; };
@@ -1581,6 +1604,10 @@
 		C1CE5808219B07A700023321 /* CTBrandRankingListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTBrandRankingListViewController.m; sourceTree = "<group>"; };
 		C1CE580A219B08E400023321 /* CTBrandRankCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTBrandRankCell.h; sourceTree = "<group>"; };
 		C1CE580B219B08E400023321 /* CTBrandRankCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTBrandRankCell.m; sourceTree = "<group>"; };
+		C1E19736219D4CD300F87038 /* CTStuckAssistantViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTStuckAssistantViewController.h; sourceTree = "<group>"; };
+		C1E19737219D4CD300F87038 /* CTStuckAssistantViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTStuckAssistantViewController.m; sourceTree = "<group>"; };
+		C1E19739219D4CF700F87038 /* CTStuckAssistantCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTStuckAssistantCell.h; sourceTree = "<group>"; };
+		C1E1973A219D4CF700F87038 /* CTStuckAssistantCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTStuckAssistantCell.m; sourceTree = "<group>"; };
 		C1E22D8220EF923B00F3AB75 /* JYWithdrawNoticeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYWithdrawNoticeModel.h; sourceTree = "<group>"; };
 		C1E22D8320EF923B00F3AB75 /* JYWithdrawNoticeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYWithdrawNoticeModel.m; sourceTree = "<group>"; };
 		C1E22D8720F3908700F3AB75 /* DRNRealTimeBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRNRealTimeBlurView.h; sourceTree = "<group>"; };
@@ -2911,6 +2938,10 @@
 				C12E4088219BCE6F00513064 /* CTProductDetailViewController.m */,
 				C18D46F4219C11FE00C2D7E0 /* CTParamterViewController.h */,
 				C18D46F5219C11FE00C2D7E0 /* CTParamterViewController.m */,
+				C177A042219D10A9000E4545 /* CTAskFloorPriceViewController.h */,
+				C177A043219D10A9000E4545 /* CTAskFloorPriceViewController.m */,
+				C1E19736219D4CD300F87038 /* CTStuckAssistantViewController.h */,
+				C1E19737219D4CD300F87038 /* CTStuckAssistantViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -2934,6 +2965,16 @@
 				C11A5A8F219BFFD5009D4458 /* CTProductDetailBottomView.m */,
 				C18D46F7219C135600C2D7E0 /* CTParamerHeadView.h */,
 				C18D46F8219C135600C2D7E0 /* CTParamerHeadView.m */,
+				C18D471B219D0DFC00C2D7E0 /* CTParamCell.h */,
+				C18D471C219D0DFC00C2D7E0 /* CTParamCell.m */,
+				C177A045219D1170000E4545 /* CTAskFloorPriceHead.h */,
+				C177A046219D1170000E4545 /* CTAskFloorPriceHead.m */,
+				C177A048219D48EF000E4545 /* CTAskOtherFactoryCell.h */,
+				C177A049219D48EF000E4545 /* CTAskOtherFactoryCell.m */,
+				C1E19739219D4CF700F87038 /* CTStuckAssistantCell.h */,
+				C1E1973A219D4CF700F87038 /* CTStuckAssistantCell.m */,
+				C19BA8C1219D563F006263AA /* CTStuckAssistantHeadView.h */,
+				C19BA8C2219D563F006263AA /* CTStuckAssistantHeadView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -3913,6 +3954,8 @@
 				C148D570219C0E6A00208FC0 /* CTWordOfMouthAllListViewController.m */,
 				C148D572219C0E8900208FC0 /* CTWordOfMouthListSubViewController.h */,
 				C148D573219C0E8900208FC0 /* CTWordOfMouthListSubViewController.m */,
+				C19BA8C4219D6451006263AA /* CTContrastCeramicViewController.h */,
+				C19BA8C5219D6451006263AA /* CTContrastCeramicViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -3924,6 +3967,8 @@
 				C1BE39B3219A8445007472BE /* CTWordOfMouthCell.m */,
 				C1BE39B5219AACA5007472BE /* CTWordOfMouthHeadView.h */,
 				C1BE39B6219AACA5007472BE /* CTWordOfMouthHeadView.m */,
+				C19BA8C7219D6495006263AA /* CTContrastProductCell.h */,
+				C19BA8C8219D6495006263AA /* CTContrastProductCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -4711,6 +4756,7 @@
 				9AB453891F3AAFA900A4C9F2 /* YSSteper.m in Sources */,
 				E984E1AD20E254FA00998AB9 /* JYRechargeCell.m in Sources */,
 				C1961F902105E0A100EBB151 /* CodeView.m in Sources */,
+				C177A047219D1170000E4545 /* CTAskFloorPriceHead.m in Sources */,
 				C18D0EC2213E22A700052BCB /* JJCardListCell.m in Sources */,
 				9A2C60B21F4D5F9000968A0A /* YSProductCommentViewController.m in Sources */,
 				C1961FE8210858A900EBB151 /* JJTransferViewController.m in Sources */,
@@ -4798,6 +4844,7 @@
 				E9D2740220B725410019C86C /* JYPasswordController.m in Sources */,
 				9A2371071F17117A0069ADF1 /* YYCGUtilities.m in Sources */,
 				9ACF73481F7D1EFE002AD89C /* YSBillTableViewCell.m in Sources */,
+				C1E19738219D4CD300F87038 /* CTStuckAssistantViewController.m in Sources */,
 				E9359D2920B549840042C298 /* JYContactUsController.m in Sources */,
 				9A2370E31F17117A0069ADF1 /* MBProgressHUD+Sunday.m in Sources */,
 				9ACF73421F7D1EFE002AD89C /* YSOrderProduct.m in Sources */,
@@ -4854,6 +4901,7 @@
 				9AB453841F3AAFA900A4C9F2 /* YSImagesView.m in Sources */,
 				E9D3DFBD20D13F7600606003 /* JYGatherAddModel.m in Sources */,
 				9AB4537C1F3AAFA900A4C9F2 /* SDSelectView.m in Sources */,
+				C1E1973B219D4CF700F87038 /* CTStuckAssistantCell.m in Sources */,
 				C1E54FD5216CAB430048390F /* JJNoteListViewController.m in Sources */,
 				9ACF73381F7D1EFE002AD89C /* YSSignInViewController.m in Sources */,
 				9ACF733B1F7D1EFE002AD89C /* YSAddress.m in Sources */,
@@ -4922,6 +4970,7 @@
 				C1CE57F6219B014600023321 /* FilterBaseCollectionViewCell.m in Sources */,
 				C1961FE22108528D00EBB151 /* JJWalletModel.m in Sources */,
 				9A2903361F41AAC80001BBD1 /* YSLifeCircleModel.m in Sources */,
+				C177A044219D10A9000E4545 /* CTAskFloorPriceViewController.m in Sources */,
 				9A2370C81F17117A0069ADF1 /* YSBaseViewController.m in Sources */,
 				C1961FF42109961000EBB151 /* JJCoinInOrCoinOutListViewController.m in Sources */,
 				C1B09A0B20B3F71900D98A61 /* JYMarketService.m in Sources */,
@@ -4948,6 +4997,7 @@
 				9ADF06D91F4A82BF0035ECA8 /* YSServiceStation.m in Sources */,
 				C196200F2109BB6F00EBB151 /* JJSafeSetCell.m in Sources */,
 				C11986EA20D3F5040091AD17 /* JYTradingBaseModel.m in Sources */,
+				C177A04A219D48EF000E4545 /* CTAskOtherFactoryCell.m in Sources */,
 				9ADF06BB1F493E660035ECA8 /* YSOrderSettleModel.m in Sources */,
 				9A4612B21F4079060091E665 /* YSSeckillView.m in Sources */,
 				C1E54FE4216DB03D0048390F /* UIView+TXFrame.m in Sources */,
@@ -5077,6 +5127,7 @@
 				62ED4C8D1FCEF32000052CA0 /* YSLifeSearchViewController.m in Sources */,
 				C1B099E820B2D0BA00D98A61 /* Y_StockChartViewController.m in Sources */,
 				C1BE39BD219AC8E5007472BE /* CTProductSelectSubViewContrroller.m in Sources */,
+				C19BA8C9219D6495006263AA /* CTContrastProductCell.m in Sources */,
 				9A2903151F41540D0001BBD1 /* YSMerchantHeaderView.m in Sources */,
 				9A2903061F41440F0001BBD1 /* YSResetPswViewController.m in Sources */,
 				9A29030C1F41460A0001BBD1 /* YSRegisterViewController.m in Sources */,
@@ -5163,6 +5214,7 @@
 				C1B099E220B2D04A00D98A61 /* UIColor+Y_StockChart.m in Sources */,
 				9A658D411D026C7E00A81B7B /* main.m in Sources */,
 				E9924AC520C11B2D000E4C77 /* JYMineService.m in Sources */,
+				C18D471D219D0DFC00C2D7E0 /* CTParamCell.m in Sources */,
 				C10FC7E520CA5DF000A95A6D /* JYEarningsCell.m in Sources */,
 				628F14A01FDE344F00AD2674 /* YSLifeCategory.m in Sources */,
 				E9359D1D20B542820042C298 /* JYSystemSetupController.m in Sources */,
@@ -5191,6 +5243,7 @@
 				9ACF734B1F7D1EFE002AD89C /* YSCouponsTableViewCell.m in Sources */,
 				9A29033C1F42A2AF0001BBD1 /* YSMerchantDetail.m in Sources */,
 				9ADD78391F2EC48900FF9E93 /* YSCategoryIndexViewController.m in Sources */,
+				C19BA8C3219D563F006263AA /* CTStuckAssistantHeadView.m in Sources */,
 				C1E22D8B20F3908900F3AB75 /* DRNRealTimeBlurView.m in Sources */,
 				9AB453AE1F3AEB0700A4C9F2 /* YSProductCollectionViewCell.m in Sources */,
 				E9359D2020B5458C0042C298 /* JYNoviceGuidanceController.m in Sources */,
@@ -5201,6 +5254,7 @@
 				9ACF73551F7D1EFE002AD89C /* YSSetupTableViewCell.m in Sources */,
 				C11DCA952111A55F00CFB439 /* JJWalletBaseModel.m in Sources */,
 				9A2370F11F17117A0069ADF1 /* UIImage+Sunday.m in Sources */,
+				C19BA8C6219D6451006263AA /* CTContrastCeramicViewController.m in Sources */,
 				E9359D2F20B556CF0042C298 /* JYCurrencyBriefController.m in Sources */,
 				9A4612B81F4083EB0091E665 /* YSLifeCircleTableViewCell.m in Sources */,
 				C1B099E320B2D04A00D98A61 /* Y_StockChartView.m in Sources */,

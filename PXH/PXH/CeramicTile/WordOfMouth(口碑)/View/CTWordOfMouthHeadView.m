@@ -153,6 +153,9 @@
 
 - (void)btnClick:(UIButton *)btn{
     
+    if (self.CTWordOfMouthHeadViewClick) {
+        self.CTWordOfMouthHeadViewClick(btn.tag - 200);
+    }
     
 }
 

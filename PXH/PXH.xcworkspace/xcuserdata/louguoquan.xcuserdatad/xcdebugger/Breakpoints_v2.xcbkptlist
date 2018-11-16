@@ -13,5 +13,83 @@
             stopOnStyle = "0">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PXH/CeramicTile/Home/ViewController/CTPuTieViewController.m"
+            timestampString = "564026618.254187"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CTPuTieViewController viewDidLoad]"
+                  moduleName = "PXH"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/louguoquan/Desktop/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9%202/cizhuan/PXH/PXH/CeramicTile/Home/ViewController/CTPuTieViewController.m"
+                  timestampString = "563962376.1313781"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__36-[CTPuTieViewController viewDidLoad]_block_invoke"
+                  moduleName = "PXH"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/louguoquan/Desktop/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9%202/cizhuan/PXH/PXH/CeramicTile/Home/ViewController/CTPuTieViewController.m"
+                  timestampString = "563962376.134703"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "926">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__36-[CTPuTieViewController viewDidLoad]_block_invoke_2"
+                  moduleName = "PXH"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/louguoquan/Desktop/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9%202/cizhuan/PXH/PXH/CeramicTile/Home/ViewController/CTPuTieViewController.m"
+                  timestampString = "563962376.1373889"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "39">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_"
+                  moduleName = "PXH"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/louguoquan/Desktop/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9%202/cizhuan/PXH/PXH/CeramicTile/Home/ViewController/CTPuTieViewController.m"
+                  timestampString = "563962376.140074"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

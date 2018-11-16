@@ -44,7 +44,7 @@
     [self.paramView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.right.equalTo(self);
         make.top.equalTo(self.topTitleLabel.mas_bottom);
-        make.height.mas_offset(300);
+        make.height.mas_offset(280);
     }];
     
     [self.centerTitleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -53,11 +53,29 @@
         make.height.mas_offset(50);
     }];
     
-//    CGFloat h = 20;
-//    CGFloat
-//    for (NSInteger i = 0; i<7; i++) {
-//        
-//    }
+    
+    NSArray *titleArr = @[@"产品品牌",@"产品型号",@"产地",@"产品材质",@"单片厚度",@"单片重量",@"产品颜色"];
+    
+     NSArray *subArr = @[@"东鹏瓷砖",@"LF36789",@"浙江杭州",@"全抛釉面瓷砖",@"~11.5mm",@"17-18kg",@"白色/釉色/大理石色"];
+    
+    CGFloat h = 20;
+    CGFloat y = 0;
+    for (NSInteger i = 0; i<7; i++) {
+     
+        y = 40*i;
+        UILabel * titleLabel = [[UILabel alloc]initWithFrame:CGRectMake(30, 10+y, 100,  h)];
+        titleLabel.text = titleArr[i];
+        titleLabel.textColor = HEX_COLOR(@"#555555");
+        titleLabel.font = [UIFont systemFontOfSize:15];
+        [self.paramView addSubview:titleLabel];
+        
+        UILabel * subLabel = [[UILabel alloc]initWithFrame:CGRectMake(150, 10+y, 200,  h)];
+        subLabel.text = subArr[i];
+        subLabel.textColor = HEX_COLOR(@"#555555");
+        subLabel.font = [UIFont systemFontOfSize:15];
+        [self.paramView addSubview:subLabel];
+        
+    }
     
 }
 

@@ -97,6 +97,20 @@
     
     self.topLabel.text = @"询底价";
     self.bottomLabel.text = @"经销商为您报价";
+    
+    
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(ask:)];
+    self.rightView.userInteractionEnabled = YES;
+    [self.rightView addGestureRecognizer:tap];
+    
+}
+
+- (void)ask:(UITapGestureRecognizer *)tap{
+    
+    if (self.CTBottomAskClick) {
+        self.CTBottomAskClick();
+    }
+    
 }
 
 - (UIView *)leftView

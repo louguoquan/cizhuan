@@ -13,6 +13,7 @@
 #import "CTProductDetailBottomView.h"
 
 #import "CTParamterViewController.h"
+#import "CTAskFloorPriceViewController.h"
 
 @interface CTProductDetailViewController ()<SDCycleScrollViewDelegate>
 
@@ -136,6 +137,13 @@
     CTProductDetailBottomView *bottom = [[CTProductDetailBottomView alloc]init];
     bottom.layer.borderColor = HEX_COLOR(@"#E7E7E7").CGColor;
     bottom.layer.borderWidth = 0.5;
+    bottom.CTBottomAskClick = ^{
+        CTAskFloorPriceViewController *vc = [[CTAskFloorPriceViewController alloc]init];
+        vc.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:vc animated:YES];
+    };
+    
+    
 //    bottom.backgroundColor = [UIColor grayColor];
     [self.view addSubview:bottom];
     [bottom mas_makeConstraints:^(MASConstraintMaker *make) {

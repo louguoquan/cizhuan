@@ -9,6 +9,7 @@
 #import "CTWordOfMouthViewController.h"
 #import "CTWordOfMouthCell.h"
 #import "CTWordOfMouthHeadView.h"
+#import "CTContrastCeramicViewController.h"
 
 @interface CTWordOfMouthViewController ()
 
@@ -21,6 +22,18 @@
     // Do any additional setup after loading the view.
     
     CTWordOfMouthHeadView *head = [[CTWordOfMouthHeadView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, 400)];
+    
+    head.CTWordOfMouthHeadViewClick = ^(NSInteger index) {
+        if (index == 0) {
+            
+        }else if (index == 1){
+            CTContrastCeramicViewController *vc = [[CTContrastCeramicViewController alloc]init];
+            vc.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:vc animated:YES];
+            
+        }
+    };
+    
     self.tableView.tableHeaderView = head;
     
     self.tableView.estimatedRowHeight = 100;

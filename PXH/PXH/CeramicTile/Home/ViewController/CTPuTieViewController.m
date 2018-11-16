@@ -15,6 +15,8 @@
 #import "PriceRangeModel.h"
 #import "SideSlipCommonTableViewCell.h"
 
+#import "CTStuckAssistantViewController.h"
+
 @interface CTPuTieViewController ()
 @property (strong, nonatomic) ZYSideSlipFilterController *filterController;
 
@@ -41,6 +43,13 @@
                                                                          }
                                                                      }                                                               commitBlock:^(NSArray *dataList) {
                                                                          //配送服务
+                                                                         
+                                                                 
+#warning 跳转铺贴助手
+                                                                         CTStuckAssistantViewController *vc = [[CTStuckAssistantViewController alloc]init];
+                                                                         [self.navigationController pushViewController:vc animated:YES];
+                                                                         
+                                                                         
                                                                          ZYSideSlipFilterRegionModel *serviceRegionModel = dataList[0];
                                                                          NSMutableString *serviceInfoString = [NSMutableString stringWithString:@"\n配送服务:\n"];
                                                                          NSMutableArray *serviceItemSelectedArray = [NSMutableArray array];
