@@ -33,6 +33,7 @@
 
 #import "CTHomeSubViewController.h"
 #import "CTWordOfMouthViewController.h"
+#import "SelectTableViewController.h"
 
 #import "JJChooseViewController.h"
 @interface YSMainTabBarViewController ()
@@ -55,14 +56,17 @@
 //    self.tabBar.dk_backgroundColorPicker = DKColorPickerWithKey(BARBG);
 
     CTHomeSubViewController *category = [[CTHomeSubViewController alloc] init];
-    [self addChildViewController:category image:@"jiaoyi" selectedImage:@"jiaoyi_press" title:@"算力"];
+    [self addChildViewController:category image:@"jiaoyi" selectedImage:@"jiaoyi_press" title:@"首页"];
     
      CTWordOfMouthViewController *home = [[CTWordOfMouthViewController alloc] init];
-    [self addChildViewController:home image:@"hangqing" selectedImage:@"hangqing_press" title:@"发现"];
+    [self addChildViewController:home image:@"hangqing" selectedImage:@"hangqing_press" title:@"口碑"];
 
     
-    JJChooseViewController *circle = [[JJChooseViewController alloc] init];
-    [self addChildViewController:circle image:@"zichan" selectedImage:@"zichan_press" title:@"钱包"];
+    JJWalletViewController *circle = [[JJWalletViewController alloc] init];
+    [self addChildViewController:circle image:@"zichan" selectedImage:@"zichan_press" title:@"免费设计"];
+    
+    SelectTableViewController *circle1 = [[SelectTableViewController alloc] init];
+    [self addChildViewController:circle1 image:@"zichan" selectedImage:@"zichan_press" title:@"选砖"];
     
     JYMineController *mineVC = [[JYMineController alloc] init];
     [self addChildViewController:mineVC image:@"my" selectedImage:@"my_press" title:@"我的"];

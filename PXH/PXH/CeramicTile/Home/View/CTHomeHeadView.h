@@ -10,7 +10,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef void(^CTHomeHeadViewSetionSelect)(NSInteger index);
+
 @interface CTHomeHeadView : UIView
+
+@property (nonatomic,strong)CTHomeHeadViewSetionSelect CTHomeHeadViewSetionSelect;
 
 @end
 

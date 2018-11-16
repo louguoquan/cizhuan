@@ -55,10 +55,14 @@ target 'PXH' do
     pod 'YYCache'
     pod 'YYImage'
     pod 'YYWebImage'
-    
+    pod 'YYModel'
+#    pod 'YYKit'
+  pod 'BlocksKit'
+
+      
     pod 'RBBAnimation'
     
-    
+    pod 'ZYSideSlipFilter', '~> 0.5.0'
     #    pod 'BaiduMapKit' #百度地图SDK
     
     #    pod 'AMap2DMap'

@@ -10,7 +10,13 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef void(^CTWordOfMouthHeadViewClick)(NSInteger index);
+
+
+
 @interface CTWordOfMouthHeadView : UIView
+
+@property (nonatomic,strong)CTWordOfMouthHeadViewClick CTWordOfMouthHeadViewClick;
 
 @end
 

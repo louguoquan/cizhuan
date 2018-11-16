@@ -52,11 +52,9 @@
         UIView *view = [[UIView alloc]initWithFrame:CGRectMake(w*(i%4), 150+h*(i/4), w, h)];
         view.tag = 1000+i;
         [self addSubview:view];
-        
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tap:)];
         view.userInteractionEnabled = YES;
         [view addGestureRecognizer:tap];
-        
         UIImageView *imageView = [[UIImageView alloc]init];
                 imageView.backgroundColor = [UIColor colorWithRed:random()%255/255.0 green:random()%255/255.0 blue:random()%255/255.0 alpha:1.0];
 //        imageView.image = [UIImage imageNamed:imgarray[i]];
@@ -99,6 +97,15 @@
     
 }
 
+
+- (void)tap:(UITapGestureRecognizer *)tap{
+    
+    if (self.CTHomeHeadViewSetionSelect) {
+        self.CTHomeHeadViewSetionSelect(tap.view.tag - 1000);
+    }
+    
+    
+}
 
 #pragma mark ----- Action -----
 
