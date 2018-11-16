@@ -476,6 +476,22 @@
 		C1EF498220BA9A0200B93899 /* JYTradingOldEntrustCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1EF498120BA9A0200B93899 /* JYTradingOldEntrustCell.m */; };
 		C1F99DC320BF98660059A677 /* JYEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F99DC220BF98660059A677 /* JYEmptyView.m */; };
 		C1F99DC720C02B6B0059A677 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F99DC620C02B6B0059A677 /* GCDAsyncSocket.m */; };
+		DA425BC8219BB156008BB415 /* JJInformationSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA425BC7219BB155008BB415 /* JJInformationSetViewController.m */; };
+		DA425BCE219BB703008BB415 /* JJInformationSetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA425BCD219BB702008BB415 /* JJInformationSetCell.m */; };
+		DA425BD1219BBF9C008BB415 /* JJChangeNickNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA425BD0219BBF9C008BB415 /* JJChangeNickNameViewController.m */; };
+		DA425BD4219BF511008BB415 /* JJSettledViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA425BD3219BF511008BB415 /* JJSettledViewController.m */; };
+		DA425BD7219C0325008BB415 /* JJHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA425BD6219C0325008BB415 /* JJHistoryViewController.m */; };
+		DA425BDA219C041C008BB415 /* JJHistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA425BD9219C041C008BB415 /* JJHistoryTableViewCell.m */; };
+		DA425BE0219C1033008BB415 /* JJCollectionTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA425BDF219C1033008BB415 /* JJCollectionTViewController.m */; };
+		DA425BE3219C15F6008BB415 /* JJMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA425BE2219C15F6008BB415 /* JJMessageViewController.m */; };
+		DA425BE6219C16B4008BB415 /* JJMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA425BE5219C16B4008BB415 /* JJMessageTableViewCell.m */; };
+		DA425BE9219CFFDF008BB415 /* JJOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA425BE8219CFFDF008BB415 /* JJOrderViewController.m */; };
+		DA425BEC219D0016008BB415 /* JJOrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA425BEB219D0016008BB415 /* JJOrderTableViewCell.m */; };
+		DA425BEF219D438A008BB415 /* JJPublicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA425BEE219D438A008BB415 /* JJPublicViewController.m */; };
+		DA425BF2219D4549008BB415 /* JJPublicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA425BF1219D4549008BB415 /* JJPublicTableViewCell.m */; };
+		DA425BF5219D69C4008BB415 /* JJChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA425BF4219D69C4008BB415 /* JJChooseViewController.m */; };
+		DA425BF8219D6B18008BB415 /* JJChooseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA425BF7219D6B18008BB415 /* JJChooseTableViewCell.m */; };
+		DA425BFB219D6F42008BB415 /* CTChooseHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA425BFA219D6F42008BB415 /* CTChooseHeaderView.m */; };
 		E90E789B20E0D0E2008BB89E /* JYCoinInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E90E789A20E0D0E2008BB89E /* JYCoinInfoModel.m */; };
 		E90FEB0F20C270DE00D4552D /* JYUMShareManger.m in Sources */ = {isa = PBXBuildFile; fileRef = E90FEB0E20C270DE00D4552D /* JYUMShareManger.m */; };
 		E927CF6E20BF992700329B00 /* JYAccountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E927CF6D20BF992700329B00 /* JYAccountModel.m */; };
@@ -1506,6 +1522,38 @@
 		C1F99DC620C02B6B0059A677 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
 		C26C4AC8B06C97D1C66CDC6C /* Pods-PXH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXH.release.xcconfig"; path = "Pods/Target Support Files/Pods-PXH/Pods-PXH.release.xcconfig"; sourceTree = "<group>"; };
 		C5F26E7B8509416714FA9D16 /* Pods-PXH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXH.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PXH/Pods-PXH.debug.xcconfig"; sourceTree = "<group>"; };
+		DA425BC6219BB155008BB415 /* JJInformationSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJInformationSetViewController.h; sourceTree = "<group>"; };
+		DA425BC7219BB155008BB415 /* JJInformationSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJInformationSetViewController.m; sourceTree = "<group>"; };
+		DA425BCC219BB702008BB415 /* JJInformationSetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJInformationSetCell.h; sourceTree = "<group>"; };
+		DA425BCD219BB702008BB415 /* JJInformationSetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJInformationSetCell.m; sourceTree = "<group>"; };
+		DA425BCF219BBF9C008BB415 /* JJChangeNickNameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJChangeNickNameViewController.h; sourceTree = "<group>"; };
+		DA425BD0219BBF9C008BB415 /* JJChangeNickNameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJChangeNickNameViewController.m; sourceTree = "<group>"; };
+		DA425BD2219BF511008BB415 /* JJSettledViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJSettledViewController.h; sourceTree = "<group>"; };
+		DA425BD3219BF511008BB415 /* JJSettledViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJSettledViewController.m; sourceTree = "<group>"; };
+		DA425BD5219C0325008BB415 /* JJHistoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJHistoryViewController.h; sourceTree = "<group>"; };
+		DA425BD6219C0325008BB415 /* JJHistoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJHistoryViewController.m; sourceTree = "<group>"; };
+		DA425BD8219C041C008BB415 /* JJHistoryTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJHistoryTableViewCell.h; sourceTree = "<group>"; };
+		DA425BD9219C041C008BB415 /* JJHistoryTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJHistoryTableViewCell.m; sourceTree = "<group>"; };
+		DA425BDE219C1033008BB415 /* JJCollectionTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJCollectionTViewController.h; sourceTree = "<group>"; };
+		DA425BDF219C1033008BB415 /* JJCollectionTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJCollectionTViewController.m; sourceTree = "<group>"; };
+		DA425BE1219C15F6008BB415 /* JJMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJMessageViewController.h; sourceTree = "<group>"; };
+		DA425BE2219C15F6008BB415 /* JJMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJMessageViewController.m; sourceTree = "<group>"; };
+		DA425BE4219C16B4008BB415 /* JJMessageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJMessageTableViewCell.h; sourceTree = "<group>"; };
+		DA425BE5219C16B4008BB415 /* JJMessageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJMessageTableViewCell.m; sourceTree = "<group>"; };
+		DA425BE7219CFFDF008BB415 /* JJOrderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJOrderViewController.h; sourceTree = "<group>"; };
+		DA425BE8219CFFDF008BB415 /* JJOrderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJOrderViewController.m; sourceTree = "<group>"; };
+		DA425BEA219D0016008BB415 /* JJOrderTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJOrderTableViewCell.h; sourceTree = "<group>"; };
+		DA425BEB219D0016008BB415 /* JJOrderTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJOrderTableViewCell.m; sourceTree = "<group>"; };
+		DA425BED219D438A008BB415 /* JJPublicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJPublicViewController.h; sourceTree = "<group>"; };
+		DA425BEE219D438A008BB415 /* JJPublicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJPublicViewController.m; sourceTree = "<group>"; };
+		DA425BF0219D4549008BB415 /* JJPublicTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJPublicTableViewCell.h; sourceTree = "<group>"; };
+		DA425BF1219D4549008BB415 /* JJPublicTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJPublicTableViewCell.m; sourceTree = "<group>"; };
+		DA425BF3219D69C4008BB415 /* JJChooseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJChooseViewController.h; sourceTree = "<group>"; };
+		DA425BF4219D69C4008BB415 /* JJChooseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJChooseViewController.m; sourceTree = "<group>"; };
+		DA425BF6219D6B18008BB415 /* JJChooseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJChooseTableViewCell.h; sourceTree = "<group>"; };
+		DA425BF7219D6B18008BB415 /* JJChooseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJChooseTableViewCell.m; sourceTree = "<group>"; };
+		DA425BF9219D6F42008BB415 /* CTChooseHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTChooseHeaderView.h; sourceTree = "<group>"; };
+		DA425BFA219D6F42008BB415 /* CTChooseHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTChooseHeaderView.m; sourceTree = "<group>"; };
 		E90E789920E0D0E2008BB89E /* JYCoinInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYCoinInfoModel.h; sourceTree = "<group>"; };
 		E90E789A20E0D0E2008BB89E /* JYCoinInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYCoinInfoModel.m; sourceTree = "<group>"; };
 		E90FEB0D20C270DE00D4552D /* JYUMShareManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYUMShareManger.h; sourceTree = "<group>"; };
@@ -2971,6 +3019,16 @@
 				C19620052109AAEF00EBB151 /* JJADListCell.m */,
 				C196200D2109BB6F00EBB151 /* JJSafeSetCell.h */,
 				C196200E2109BB6F00EBB151 /* JJSafeSetCell.m */,
+				DA425BCC219BB702008BB415 /* JJInformationSetCell.h */,
+				DA425BCD219BB702008BB415 /* JJInformationSetCell.m */,
+				DA425BD8219C041C008BB415 /* JJHistoryTableViewCell.h */,
+				DA425BD9219C041C008BB415 /* JJHistoryTableViewCell.m */,
+				DA425BE4219C16B4008BB415 /* JJMessageTableViewCell.h */,
+				DA425BE5219C16B4008BB415 /* JJMessageTableViewCell.m */,
+				DA425BEA219D0016008BB415 /* JJOrderTableViewCell.h */,
+				DA425BEB219D0016008BB415 /* JJOrderTableViewCell.m */,
+				DA425BF0219D4549008BB415 /* JJPublicTableViewCell.h */,
+				DA425BF1219D4549008BB415 /* JJPublicTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -2982,6 +3040,22 @@
 				E9359D1520B4FF730042C298 /* JYMineController.m */,
 				C19620012109AA2700EBB151 /* JJADListViewController.h */,
 				C19620022109AA2700EBB151 /* JJADListViewController.m */,
+				DA425BC6219BB155008BB415 /* JJInformationSetViewController.h */,
+				DA425BC7219BB155008BB415 /* JJInformationSetViewController.m */,
+				DA425BCF219BBF9C008BB415 /* JJChangeNickNameViewController.h */,
+				DA425BD0219BBF9C008BB415 /* JJChangeNickNameViewController.m */,
+				DA425BD2219BF511008BB415 /* JJSettledViewController.h */,
+				DA425BD3219BF511008BB415 /* JJSettledViewController.m */,
+				DA425BD5219C0325008BB415 /* JJHistoryViewController.h */,
+				DA425BD6219C0325008BB415 /* JJHistoryViewController.m */,
+				DA425BDE219C1033008BB415 /* JJCollectionTViewController.h */,
+				DA425BDF219C1033008BB415 /* JJCollectionTViewController.m */,
+				DA425BE1219C15F6008BB415 /* JJMessageViewController.h */,
+				DA425BE2219C15F6008BB415 /* JJMessageViewController.m */,
+				DA425BE7219CFFDF008BB415 /* JJOrderViewController.h */,
+				DA425BE8219CFFDF008BB415 /* JJOrderViewController.m */,
+				DA425BED219D438A008BB415 /* JJPublicViewController.h */,
+				DA425BEE219D438A008BB415 /* JJPublicViewController.m */,
 				C196200A2109B95F00EBB151 /* JJSafeSetViewController.h */,
 				C196200B2109B95F00EBB151 /* JJSafeSetViewController.m */,
 				C19620102109BF6A00EBB151 /* JJBDEmailViewController.h */,
@@ -3013,6 +3087,8 @@
 				C1962023210B113300EBB151 /* JJTransferPageViewController.m */,
 				C1962025210B128300EBB151 /* JJTransferListViewController.h */,
 				C1962026210B128300EBB151 /* JJTransferListViewController.m */,
+				DA425BF3219D69C4008BB415 /* JJChooseViewController.h */,
+				DA425BF4219D69C4008BB415 /* JJChooseViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -3047,6 +3123,10 @@
 				C1961FF921099EF100EBB151 /* JJCoinInOrOutCell.m */,
 				C184E23921132D48003A760B /* JJTransformCell.h */,
 				C184E23A21132D48003A760B /* JJTransformCell.m */,
+				DA425BF6219D6B18008BB415 /* JJChooseTableViewCell.h */,
+				DA425BF7219D6B18008BB415 /* JJChooseTableViewCell.m */,
+				DA425BF9219D6F42008BB415 /* CTChooseHeaderView.h */,
+				DA425BFA219D6F42008BB415 /* CTChooseHeaderView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -4423,6 +4503,7 @@
 				9ACF732D1F7D1EFE002AD89C /* YSOrderTableViewController.m in Sources */,
 				9A2370C91F17117A0069ADF1 /* YSGroupedTableViewController.m in Sources */,
 				9A2C60A01F4D0EDD00968A0A /* YSPaySuccessViewController.m in Sources */,
+				DA425BFB219D6F42008BB415 /* CTChooseHeaderView.m in Sources */,
 				C1B099E920B2D0BA00D98A61 /* NetWorking.m in Sources */,
 				9ACF73241F7D1EFE002AD89C /* YSCouponCommentViewController.m in Sources */,
 				9A104D091F555276001A2C9B /* YSCouponHeaderView.m in Sources */,
@@ -4470,6 +4551,7 @@
 				9ACF73471F7D1EFE002AD89C /* YSAddressView.m in Sources */,
 				E932C95320BA5E07007BFD53 /* JYRechargeNoticeView.m in Sources */,
 				C1B099D920B2D04A00D98A61 /* Y_KLineGroupModel.m in Sources */,
+				DA425BCE219BB703008BB415 /* JJInformationSetCell.m in Sources */,
 				C1962038210CA9F000EBB151 /* JJLoginService.m in Sources */,
 				C1961FA42106C34100EBB151 /* FloatingBallHeader.m in Sources */,
 				C1B09A5C20B6A5F900D98A61 /* JYKLineHeaderView.m in Sources */,
@@ -4528,6 +4610,7 @@
 				E90FEB0F20C270DE00D4552D /* JYUMShareManger.m in Sources */,
 				C1B09A5320B66FB300D98A61 /* JYBusinessDetailCell.m in Sources */,
 				62CDD7581FCFDF0500D3BE3C /* YSDeliverViewController.m in Sources */,
+				DA425BEC219D0016008BB415 /* JJOrderTableViewCell.m in Sources */,
 				C12D53162186BA01003B1F56 /* JJShareQRCodeView.m in Sources */,
 				9AB453811F3AAFA900A4C9F2 /* YSEditImageItem.m in Sources */,
 				C1B099DB20B2D04A00D98A61 /* Y_KLineVolumeView.m in Sources */,
@@ -4546,6 +4629,7 @@
 				C18D0EC8213E379F00052BCB /* JJCheckOutViewController.m in Sources */,
 				E932C92C20B7A2B8007BFD53 /* JYBindGoogleCodeController.m in Sources */,
 				E9359D1A20B5163B0042C298 /* JYAccountAuthController.m in Sources */,
+				DA425BD4219BF511008BB415 /* JJSettledViewController.m in Sources */,
 				9ADD783C1F2EC49800FF9E93 /* YSLifeCircleViewController.m in Sources */,
 				C1E54FD8216CAC970048390F /* JJNoteListCell.m in Sources */,
 				9A2903181F4156E20001BBD1 /* YSMerchantFooterView.m in Sources */,
@@ -4576,6 +4660,7 @@
 				E9359D3820B564BD0042C298 /* JYSearchView.m in Sources */,
 				C1B099DC20B2D04A00D98A61 /* Y_KLineVolume.m in Sources */,
 				9A2370E91F17117A0069ADF1 /* NSNumber+Sunday.m in Sources */,
+				DA425BD1219BBF9C008BB415 /* JJChangeNickNameViewController.m in Sources */,
 				9A2C2E581F1717B9002574EF /* YSSegmentStyle.m in Sources */,
 				9A2370F01F17117A0069ADF1 /* UIGestureRecognizer+Sunday.m in Sources */,
 				C1961FCB2108415200EBB151 /* JJBuyCoinListViewController.m in Sources */,
@@ -4585,6 +4670,7 @@
 				9AE8A6E91F4EB6DF00910301 /* YSCityViewController.m in Sources */,
 				9A2903451F4425AF0001BBD1 /* YSPanicBuyingView.m in Sources */,
 				E984E1A720E2382300998AB9 /* JYAssetsService.m in Sources */,
+				DA425BD7219C0325008BB415 /* JJHistoryViewController.m in Sources */,
 				9A2903031F413C410001BBD1 /* YSLoginViewController.m in Sources */,
 				C1B09A1820B4482200D98A61 /* JXMovableCellTableView.m in Sources */,
 				9A2370EB1F17117A0069ADF1 /* UIApplication+Sunday.m in Sources */,
@@ -4604,6 +4690,7 @@
 				9AB4537E1F3AAFA900A4C9F2 /* YSCellView.m in Sources */,
 				C1961FBC2107466300EBB151 /* JJBuyCoinFinishViewController.m in Sources */,
 				C1961FB92107465200EBB151 /* JJBuyCoinNextStepViewController.m in Sources */,
+				DA425BE0219C1033008BB415 /* JJCollectionTViewController.m in Sources */,
 				9ACF73411F7D1EFE002AD89C /* YSOrder.m in Sources */,
 				A63E01C21FC12C4600ED4B68 /* YSProvinceViewController.m in Sources */,
 				C1961FD12108432400EBB151 /* JJBuyCoinListModel.m in Sources */,
@@ -4619,6 +4706,7 @@
 				9A6EEE061F3060CB00F2A488 /* YSCartProductTableViewCell.m in Sources */,
 				C11DCA8921103A7200CFB439 /* JJMineService.m in Sources */,
 				9A2370F71F17117A0069ADF1 /* UIView+YSRecalculate.m in Sources */,
+				DA425BC8219BB156008BB415 /* JJInformationSetViewController.m in Sources */,
 				C1B099E120B2D04A00D98A61 /* Y_StockChartGlobalVariable.m in Sources */,
 				E9924AC120C0F7E7000E4C77 /* JYWebController.m in Sources */,
 				9AB453B71F3AF99400A4C9F2 /* YSConfirmOrderHeaderView.m in Sources */,
@@ -4631,6 +4719,7 @@
 				C1B09A0B20B3F71900D98A61 /* JYMarketService.m in Sources */,
 				9AB453791F3AAFA900A4C9F2 /* SDPayWayCell.m in Sources */,
 				9A2371081F17117A0069ADF1 /* YYPhotoGroupView.m in Sources */,
+				DA425BDA219C041C008BB415 /* JJHistoryTableViewCell.m in Sources */,
 				C11DCA8F2110736500CFB439 /* JJBuyModel.m in Sources */,
 				9ACF73331F7D1EFE002AD89C /* YSRecommendViewController.m in Sources */,
 				9A2371061F17117A0069ADF1 /* UIScrollView+YYAdd.m in Sources */,
@@ -4648,6 +4737,7 @@
 				C19620182109C7A700EBB151 /* JJResetPwdViewController.m in Sources */,
 				9A305AFB1F45A3E50037DD67 /* YSStandardDetail.m in Sources */,
 				9ADF06D91F4A82BF0035ECA8 /* YSServiceStation.m in Sources */,
+				DA425BEF219D438A008BB415 /* JJPublicViewController.m in Sources */,
 				C196200F2109BB6F00EBB151 /* JJSafeSetCell.m in Sources */,
 				C11986EA20D3F5040091AD17 /* JYTradingBaseModel.m in Sources */,
 				9ADF06BB1F493E660035ECA8 /* YSOrderSettleModel.m in Sources */,
@@ -4655,6 +4745,7 @@
 				C1E54FE4216DB03D0048390F /* UIView+TXFrame.m in Sources */,
 				62CDD75E1FCFF17700D3BE3C /* YSDeliverTableViewCell.m in Sources */,
 				C184E23821132B1A003A760B /* JJTransformModel.m in Sources */,
+				DA425BE9219CFFDF008BB415 /* JJOrderViewController.m in Sources */,
 				9AE8A6EC1F53AF8500910301 /* YSIntroduceView.m in Sources */,
 				C1EF494F20B7B98000B93899 /* JYC2CBuyView.m in Sources */,
 				9A104D031F5551C6001A2C9B /* YSCouponDetailViewController.m in Sources */,
@@ -4721,6 +4812,7 @@
 				C146658D20CEABAB00D19C50 /* JYBenefitsCell.m in Sources */,
 				A673B40F1FB6DE410046638D /* YSImagesViewController.m in Sources */,
 				9ADF06CA1F4980050035ECA8 /* YSStreetPickerView.m in Sources */,
+				DA425BF8219D6B18008BB415 /* JJChooseTableViewCell.m in Sources */,
 				C1B09A4820B5AAC700D98A61 /* JYTradingService.m in Sources */,
 				C1B099D820B2D04A00D98A61 /* Y_KLineModel.m in Sources */,
 				C1B099D520B2D04A00D98A61 /* Y_KLineAccessory.m in Sources */,
@@ -4732,6 +4824,7 @@
 				C1B09A1120B4104600D98A61 /* JYEditOptionalViewController.m in Sources */,
 				E9359D2320B547EE0042C298 /* JYBulletinCenterController.m in Sources */,
 				C1F99DC720C02B6B0059A677 /* GCDAsyncSocket.m in Sources */,
+				DA425BE3219C15F6008BB415 /* JJMessageViewController.m in Sources */,
 				9A305AF81F458CDE0037DD67 /* YSStandard.m in Sources */,
 				9ADF06BE1F4966D10035ECA8 /* YSCartProduct.m in Sources */,
 				9A305AEF1F45834E0037DD67 /* YSTagListLayout.m in Sources */,
@@ -4740,6 +4833,7 @@
 				C18D0EBF213E228600052BCB /* JJCardListModel.m in Sources */,
 				9ACF73341F7D1EFE002AD89C /* YSRefundsApplyViewController.m in Sources */,
 				9ACF732F1F7D1EFE002AD89C /* YSProductCollectionViewController.m in Sources */,
+				DA425BE6219C16B4008BB415 /* JJMessageTableViewCell.m in Sources */,
 				9A4612AC1F405A370091E665 /* YSSeckillViewCell.m in Sources */,
 				C1B09A4620B5AAB800D98A61 /* JYAdvertiseCell.m in Sources */,
 				9AB453451F399D5000A4C9F2 /* YSProductDetailViewController.m in Sources */,
@@ -4836,6 +4930,7 @@
 				C1961FA32106C34100EBB151 /* PaopaoButton.m in Sources */,
 				E94B95F820C4E9FF007A090B /* JYScanController.m in Sources */,
 				9ADF06D61F4A7C880035ECA8 /* YSServiceStationCell.m in Sources */,
+				DA425BF5219D69C4008BB415 /* JJChooseViewController.m in Sources */,
 				C18D0ECB213E6F9000052BCB /* JJHomeSecoundCell.m in Sources */,
 				E927CF6E20BF992700329B00 /* JYAccountModel.m in Sources */,
 				9ACF73221F7D1EFE002AD89C /* YSBillViewController.m in Sources */,
@@ -4863,6 +4958,7 @@
 				9AB4537A1F3AAFA900A4C9F2 /* SDPayWayView.m in Sources */,
 				C10FC7EB20CBAEBC00A95A6D /* JYCommissionCell.m in Sources */,
 				9ACF733F1F7D1EFE002AD89C /* YSCoupons.m in Sources */,
+				DA425BF2219D4549008BB415 /* JJPublicTableViewCell.m in Sources */,
 				C1B09A0120B3C21400D98A61 /* JYMarketHomeViewController.m in Sources */,
 				9A2370F51F17117A0069ADF1 /* UIView+Badge.m in Sources */,
 				C146658E20CEABAB00D19C50 /* JYShareView.m in Sources */,

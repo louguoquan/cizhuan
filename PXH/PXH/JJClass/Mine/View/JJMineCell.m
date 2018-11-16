@@ -63,9 +63,10 @@
 {
     self.titleLabel.text = title;
     self.iconImageView.image = [UIImage imageNamed:image];
+    
     if (sub.length>0) {
         self.subLabel.hidden = NO;
-        self.subLabel.text = sub;
+//        self.subLabel.text = sub;
     }else{
         self.subLabel.hidden = YES;
     }
@@ -86,6 +87,7 @@
     if (!_img) {
         _img = [[UIImageView alloc]init];
         _img.image = [UIImage imageNamed:@"JJ_return"];
+        _img.hidden = YES;
     }
     return _img;
 }

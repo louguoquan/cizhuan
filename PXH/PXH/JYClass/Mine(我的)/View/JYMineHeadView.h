@@ -18,4 +18,10 @@
 
 @property (nonatomic, copy) dispatch_block_t    selLoginBlock;
 
+
+@property (nonatomic, copy) dispatch_block_t    selOrderBlock;
+@property (nonatomic, copy) dispatch_block_t    selMesBlock;
+@property (nonatomic, copy) dispatch_block_t    selPubBlock;
+@property (nonatomic, copy) dispatch_block_t    selColBlock;
+
 @end

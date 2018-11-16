@@ -45,11 +45,13 @@
 
 #import "YSWebViewController.h"
 
-
-
-
-
-
+#import "JJInformationSetViewController.h"
+#import "JJSettledViewController.h"
+#import "JJHistoryViewController.h"
+#import "JJCollectionTViewController.h"
+#import "JJMessageViewController.h"
+#import "JJOrderViewController.h"
+#import "JJPublicViewController.h"
 @interface JYMineController ()
 
 @property (nonatomic, strong) JYMineHeadView    *headView;
@@ -71,7 +73,7 @@
 {
     WS(weakSelf)
     if (!_headView) {
-        _headView = [[JYMineHeadView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, 80.f)];
+        _headView = [[JYMineHeadView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, 300.f)];
         _headView.dk_backgroundColorPicker = DKColorPickerWithKey(NAVBG);
         _headView.selLoginBlock = ^{
             [weakSelf pushLoginVC];
@@ -89,6 +91,20 @@
                     }
                 }];
             }];
+        };
+        __weak typeof(self) weak_self = self;
+        _headView.selColBlock = ^{
+            [weak_self pushVC:[JJCollectionTViewController new]];
+        };
+        _headView.selMesBlock = ^{
+            [weak_self pushVC:[JJMessageViewController new]];
+        };
+        _headView.selOrderBlock = ^{
+            [weak_self pushVC:[JJOrderViewController new]];
+        };
+        _headView.selPubBlock = ^{
+            
+            [weak_self pushVC:[JJPublicViewController new]];
         };
     }
     return _headView;
@@ -114,8 +130,8 @@
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    //    [self.navigationController setNavigationBarHidden:YES animated:animated];
-    
+        [self.navigationController setNavigationBarHidden:YES animated:animated];
+
     NSString *token = [JYAccountModel sharedAccount].token;
     if (token.length) {
         [JJMineService JJMobileMemberGetUserInfoCompletion:^(id result, id error) {
@@ -131,7 +147,7 @@
             self.headView.nameStr = nickName?nickName:@"昵称:";
         }];
         
-        self.tableView.tableFooterView = self.exitBtn;
+//        self.tableView.tableFooterView = self.exitBtn;
     }else{
         self.headView.nameStr = @"注册/登录";
         self.headView.numStr = @"";
@@ -148,9 +164,10 @@
     
     [self setUpBase];
     
-    [self setNav];
+//    [self setNav];
     
-    [self.view addSubview:self.headView];
+    
+//    [self.view addSubview:self.headView];
     
     [self setUpTableView];
     
@@ -217,7 +234,8 @@
 - (void)setUpTableView
 {
     [self.tableView mas_remakeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self.headView.mas_bottom);
+//        make.top.equalTo(self.headView.mas_bottom);
+        make.top.equalTo(self.view).with.offset(0);
         make.left.right.bottom.mas_equalTo(0);
     }];
     
@@ -232,7 +250,7 @@
     self.tableView.estimatedRowHeight = 60.f;
     self.tableView.rowHeight = UITableViewAutomaticDimension;
     self.tableView.separatorInset = UIEdgeInsetsZero;
-    //    self.tableView.tableHeaderView = self.headView;
+    self.tableView.tableHeaderView = self.headView;
     
     [self.tableView registerClass:[JJMineCell class] forCellReuseIdentifier:@"JJMineCell"];
     
@@ -242,9 +260,9 @@
 
 - (void)setUpBase
 {
-    _titleArr = @[@[@"消息中心", @"联系客服", @"安全中心", @"帮助中心", @"关于我们"]
-                  ];
-    _imgArr = @[@[@"JJ_icon", @"JJ_Users", @"JJ_Rolodex", @"JJ_Help", @"JJ_Info"]
+    _titleArr = @[@[@"浏览历史", @"客服电话", @"企业入驻"]
+                  ,@[@"设置"]];
+    _imgArr = @[@[@"JJ_icon", @"JJ_Users", @"JJ_Rolodex"],@[@""]
                 ];
 }
 
@@ -290,7 +308,7 @@
     switch (indexPath.section) {
         case 0: {
             if (indexPath.row == 0) {//新手指引
-                [self pushVC:[JJADListViewController new]];
+                [self pushVC:[JJHistoryViewController new]];
             }
             else if (indexPath.row == 1) {
                 
@@ -303,7 +321,7 @@
                 
             }
             else if (indexPath.row == 2) {
-                [self pushVC:[JJSafeSetViewController new]];
+                [self pushVC:[JJSettledViewController new]];
                 
             }
             else if (indexPath.row == 3) {
@@ -330,6 +348,13 @@
         }
             break;
             
+        case 1:
+        {
+            if (indexPath.row == 0) {
+                [self pushVC:[JJInformationSetViewController new]];
+            }
+        }
+            break;
             
     }
 }

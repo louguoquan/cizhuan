@@ -34,6 +34,7 @@
 #import "CTHomeSubViewController.h"
 #import "CTWordOfMouthViewController.h"
 
+#import "JJChooseViewController.h"
 @interface YSMainTabBarViewController ()
 
 @end
@@ -60,7 +61,7 @@
     [self addChildViewController:home image:@"hangqing" selectedImage:@"hangqing_press" title:@"发现"];
 
     
-    JJWalletViewController *circle = [[JJWalletViewController alloc] init];
+    JJChooseViewController *circle = [[JJChooseViewController alloc] init];
     [self addChildViewController:circle image:@"zichan" selectedImage:@"zichan_press" title:@"钱包"];
     
     JYMineController *mineVC = [[JYMineController alloc] init];
