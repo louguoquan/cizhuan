@@ -25,6 +25,7 @@
     
     self.tableView.estimatedRowHeight = 100;
     [self.tableView registerClass:[CTWordOfMouthCell class] forCellReuseIdentifier:@"CTWordOfMouthCell"];
+    NSLog(@"1212");
     
 }
 
