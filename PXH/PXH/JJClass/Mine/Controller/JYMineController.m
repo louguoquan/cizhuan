@@ -52,6 +52,8 @@
 #import "JJMessageViewController.h"
 #import "JJOrderViewController.h"
 #import "JJPublicViewController.h"
+
+#import "JJCommentViewController.h"
 @interface JYMineController ()
 
 @property (nonatomic, strong) JYMineHeadView    *headView;
@@ -312,7 +314,7 @@
             }
             else if (indexPath.row == 1) {
                 
-                
+                [self pushVC:[JJCommentViewController new]];
                 
 //#pragma mark  最简单的集成方法: 全部使用meiqia的,  不做任何自定义UI.
 //                MQChatViewManager *chatViewManager = [[MQChatViewManager alloc] init];
